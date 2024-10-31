@@ -17,6 +17,7 @@
 .highlight {
     background-color: yellow;
     color: black;
+    font-size: 16px;
 }
 hr {
     border: none;
