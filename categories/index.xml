@@ -7,7 +7,39 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>zhh</copyright>
-        <lastBuildDate>Thu, 31 Oct 2024 17:56:17 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Nov 2024 13:17:43 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>C&#43;&#43;</title>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/c&#43;&#43;/</link>
+        <pubDate>Sat, 02 Nov 2024 13:17:43 +0800</pubDate>
+        
+        <guid>https://wustzhh.github.io/Hugo-stack/categories/c&#43;&#43;/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>LeetCode</title>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/leetcode/</link>
+        <pubDate>Sat, 02 Nov 2024 13:17:43 +0800</pubDate>
+        
+        <guid>https://wustzhh.github.io/Hugo-stack/categories/leetcode/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>滑动窗口</title>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
+        <pubDate>Sat, 02 Nov 2024 13:17:43 +0800</pubDate>
+        
+        <guid>https://wustzhh.github.io/Hugo-stack/categories/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>算法</title>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/%E7%AE%97%E6%B3%95/</link>
+        <pubDate>Sat, 02 Nov 2024 13:17:43 +0800</pubDate>
+        
+        <guid>https://wustzhh.github.io/Hugo-stack/categories/%E7%AE%97%E6%B3%95/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>部署</title>
         <link>https://wustzhh.github.io/Hugo-stack/categories/%E9%83%A8%E7%BD%B2/</link>
         <pubDate>Thu, 31 Oct 2024 17:56:17 +0800</pubDate>
