@@ -4,16 +4,16 @@
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="复习了一下滑动窗口的算法，选了几道题，记一下代码和解题思路。">
 <title>滑动窗口</title>
 
-<link rel='canonical' href='https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/'>
+<link rel='canonical' href='https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/'>
 
-<link rel="stylesheet" href="/Hugo-stack-main/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="滑动窗口">
+<link rel="stylesheet" href="/Hugo-stack/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="滑动窗口">
 <meta property='og:description' content="复习了一下滑动窗口的算法，选了几道题，记一下代码和解题思路。">
-<meta property='og:url' content='https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/'>
+<meta property='og:url' content='https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/'>
 <meta property='og:site_name' content='zhh的个人博客'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-11-02T13:17:43&#43;08:00'/><meta property='article:modified_time' content='2024-11-02T13:17:43&#43;08:00'/><meta property='og:image' content='https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2024-11-02T13:17:43&#43;08:00'/><meta property='article:modified_time' content='2024-11-02T13:17:43&#43;08:00'/><meta property='og:image' content='https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia.png' />
 <meta name="twitter:title" content="滑动窗口">
 <meta name="twitter:description" content="复习了一下滑动窗口的算法，选了几道题，记一下代码和解题思路。"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia.png' />
+    <meta name="twitter:image" content='https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia.png' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
         <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -54,13 +54,13 @@
         
             
             <figure class="site-avatar">
-                <a href="/Hugo-stack-main/">
+                <a href="/Hugo-stack/">
                 
                     
                     
                     
                         
-                        <img src="/Hugo-stack-main/img/avatar_hu10938758681220291863.png" width="300"
+                        <img src="/Hugo-stack/img/avatar_hu10938758681220291863.png" width="300"
                             height="300" class="site-logo" loading="lazy" alt="Avatar">
                     
                 
@@ -73,7 +73,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/Hugo-stack-main">zhh的个人博客</a></h1>
+            <h1 class="site-name"><a href="/Hugo-stack">zhh的个人博客</a></h1>
             <h2 class="site-description">随缘更新</h2>
         </div>
     </header><ol class="menu-social">
@@ -97,7 +97,7 @@
         
         
         <li >
-            <a href='/Hugo-stack-main/' >
+            <a href='/Hugo-stack/' >
                 
                 
                 
@@ -117,7 +117,7 @@
         
         
         <li >
-            <a href='/Hugo-stack-main/%E5%85%B3%E4%BA%8E/' >
+            <a href='/Hugo-stack/%E5%85%B3%E4%BA%8E/' >
                 
                 
                 
@@ -136,7 +136,7 @@
         
         
         <li >
-            <a href='/Hugo-stack-main/archives/' >
+            <a href='/Hugo-stack/archives/' >
                 
                 
                 
@@ -156,7 +156,7 @@
         
         
         <li >
-            <a href='/Hugo-stack-main/search/' >
+            <a href='/Hugo-stack/search/' >
                 
                 
                 
@@ -175,7 +175,7 @@
         
         
         <li >
-            <a href='/Hugo-stack-main/%E5%8F%8B%E9%93%BE/' >
+            <a href='/Hugo-stack/%E5%8F%8B%E9%93%BE/' >
                 
                 
                 
@@ -292,9 +292,9 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/">
-                <img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia_hu6196186366943200100.png"
-                        srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia_hu6196186366943200100.png 800w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia_hu11247548480547071472.png 1600w"
+            <a href="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/">
+                <img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia_hu6196186366943200100.png"
+                        srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia_hu6196186366943200100.png 800w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia_hu11247548480547071472.png 1600w"
                         width="800" 
                         height="450" 
                         loading="lazy"
@@ -308,19 +308,19 @@
     
     <header class="article-category">
         
-            <a href="/Hugo-stack-main/categories/%E7%AE%97%E6%B3%95/" >
+            <a href="/Hugo-stack/categories/%E7%AE%97%E6%B3%95/" >
                 算法
             </a>
         
-            <a href="/Hugo-stack-main/categories/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/" >
+            <a href="/Hugo-stack/categories/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/" >
                 滑动窗口
             </a>
         
-            <a href="/Hugo-stack-main/categories/c&#43;&#43;/" >
+            <a href="/Hugo-stack/categories/c&#43;&#43;/" >
                 C&#43;&#43;
             </a>
         
-            <a href="/Hugo-stack-main/categories/leetcode/" >
+            <a href="/Hugo-stack/categories/leetcode/" >
                 LeetCode
             </a>
         
@@ -329,7 +329,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/">滑动窗口</a>
+            <a href="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/">滑动窗口</a>
         </h2>
     
         
@@ -398,10 +398,10 @@ hr {
 <p>滑动窗口一直以来都是我不曾注意到的，直到上班之后和同事聊天的时候才知道有这么个算法。恰巧最近做题的时候经常碰到，就专门整理一下。
 本文的题目全都来自LeetCode，题单则是来自<code>灵茶山艾府</code>的<a class="link" href="https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md"  target="_blank" rel="noopener"
     >题集</a>
-最后一题没做，因为我没看懂题目。<img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image.png"
+最后一题没做，因为我没看懂题目。<img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image.png"
 	width="1540"
 	height="890"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu9027174478304608692.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu13192007805490825273.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu9027174478304608692.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu13192007805490825273.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -417,10 +417,10 @@ hr {
 </h2><h3 id="795-区间子数组个数httpsleetcodecnproblemsnumber-of-subarrays-with-bounded-maximumdescription"><a class="link" href="https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/description/"  target="_blank" rel="noopener"
     >795. 区间子数组个数</a>
 </h3><blockquote>
-<p><img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1.png"
+<p><img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1.png"
 	width="1253"
 	height="612"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu18371182871586298689.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu1904274930829895083.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu18371182871586298689.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu1904274930829895083.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -492,10 +492,10 @@ hr {
 </div>
 </div></details>
 <blockquote>
-<p>最后贴一下战绩： <img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2.png"
+<p>最后贴一下战绩： <img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2.png"
 	width="734"
 	height="453"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu3664814883387862887.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu17984049364869232883.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu3664814883387862887.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu17984049364869232883.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -510,10 +510,10 @@ hr {
 <h3 id="1658-将-x-减到-0-的最小操作数httpsleetcodecnproblemsminimum-operations-to-reduce-x-to-zerodescription"><a class="link" href="https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/description/"  target="_blank" rel="noopener"
     >1658. 将 x 减到 0 的最小操作数</a>
 </h3><blockquote>
-<p><img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3.png"
+<p><img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3.png"
 	width="1233"
 	height="726"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu9626725963423300569.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu966288503656649831.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu9626725963423300569.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu966288503656649831.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -601,10 +601,10 @@ hr {
 </div>
 </div></details>
 <blockquote>
-<p>贴战绩:  <img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4.png"
+<p>贴战绩:  <img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4.png"
 	width="709"
 	height="466"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16525315800040000237.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16973091087030195065.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16525315800040000237.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16973091087030195065.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -619,10 +619,10 @@ hr {
 <h3 id="1234-替换子串得到平衡字符串httpsleetcodecnproblemsreplace-the-substring-for-balanced-stringdescription"><a class="link" href="https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/"  target="_blank" rel="noopener"
     >1234. 替换子串得到平衡字符串</a>
 </h3><blockquote>
-<p><img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5.png"
+<p><img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5.png"
 	width="1244"
 	height="1028"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu1044631414233638874.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu13292829381746868343.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu1044631414233638874.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu13292829381746868343.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -755,10 +755,10 @@ hr {
 </div>
 </div></details>
 <blockquote>
-<p>贴战绩:  <img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6.png"
+<p>贴战绩:  <img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6.png"
 	width="712"
 	height="453"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu18422552890479966756.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu13605172377078081250.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu18422552890479966756.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu13605172377078081250.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -773,10 +773,10 @@ hr {
 <h3 id="1574-删除最短的子数组使剩余数组有序httpsleetcodecnproblemsshortest-subarray-to-be-removed-to-make-array-sorteddescription"><a class="link" href="https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/"  target="_blank" rel="noopener"
     >1574. 删除最短的子数组使剩余数组有序</a>
 </h3><blockquote>
-<p><img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7.png"
+<p><img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7.png"
 	width="1241"
 	height="728"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu18290584975092826777.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu12509967124629732457.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu18290584975092826777.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu12509967124629732457.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -866,10 +866,10 @@ hr {
 </div>
 </div></details>
 <blockquote>
-<p>贴战绩:  <img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8.png"
+<p>贴战绩:  <img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8.png"
 	width="725"
 	height="448"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu959560517206656853.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu16763575953918603637.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu959560517206656853.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu16763575953918603637.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -884,10 +884,10 @@ hr {
 <h3 id="2106-摘水果httpsleetcodecnproblemsmaximum-fruits-harvested-after-at-most-k-stepsdescription"><a class="link" href="https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/description/"  target="_blank" rel="noopener"
     >2106. 摘水果</a>
 </h3><blockquote>
-<p><img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9.png"
+<p><img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9.png"
 	width="1227"
 	height="1645"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu11600020268322347.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu2971312415293958838.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu11600020268322347.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu2971312415293958838.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -1031,10 +1031,10 @@ hr {
 </div>
 </div></details>
 <blockquote>
-<p>贴战绩:  <img src="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10.png"
+<p>贴战绩:  <img src="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10.png"
 	width="698"
 	height="552"
-	srcset="/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu8029156966899125311.png 480w, /Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu16741419508586600091.png 1024w"
+	srcset="/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu8029156966899125311.png 480w, /Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu16741419508586600091.png 1024w"
 	loading="lazy"
 	
 		alt="alt text"
@@ -1216,7 +1216,7 @@ hr {
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/Hugo-stack-main/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/Hugo-stack/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

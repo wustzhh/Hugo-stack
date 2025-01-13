@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>HyperMesh on zhh的个人博客</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/categories/hypermesh/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/hypermesh/</link>
         <description>Recent content in HyperMesh on zhh的个人博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>zhh</copyright>
-        <lastBuildDate>Mon, 13 Jan 2025 14:34:24 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack-main/categories/hypermesh/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 13 Jan 2025 14:34:24 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/categories/hypermesh/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>25.01.13_HyperMesh点线编辑</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/</link>
         <pubDate>Mon, 13 Jan 2025 14:34:24 +0800</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/</guid>
-        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/emilia.jpg" alt="Featured image of post 25.01.13_HyperMesh点线编辑" /&gt;&lt;style&gt;
+        <guid>https://wustzhh.github.io/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/</guid>
+        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/emilia.jpg" alt="Featured image of post 25.01.13_HyperMesh点线编辑" /&gt;&lt;style&gt;
 hr {
     border: none;
     height: 2px; /* 横线的高度 */
@@ -24,10 +24,10 @@ hr {
 &lt;h1 id=&#34;准备&#34;&gt;准备
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;我们将使用HyperMesh软件2022版本进行点线几何编辑。主要操作的就是下面这一排，后面框内是具体的点线操作。前面的是选择一个表面进行编辑或者一个plane作为草图。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image.png&#34;
 	width=&#34;1198&#34;
 	height=&#34;154&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image_hu3647838553354434601.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image_hu11554160434022339773.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image_hu3647838553354434601.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image_hu11554160434022339773.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -41,10 +41,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;选中表面或者草图成功之后会出现这样一大片的画布。另外两个Project和Intersected也是类似的操作。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1.png&#34;
 	width=&#34;1508&#34;
 	height=&#34;774&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1_hu3917441703004160029.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1_hu17541838480970864897.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1_hu3917441703004160029.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1_hu17541838480970864897.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -61,10 +61,10 @@ hr {
 &lt;li&gt;创建点&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;点击菜单栏的这个点，就可以再画布上面点击创建点了，再次点击创建过的点，按一下键盘上的delete键就可以删除点。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2.png&#34;
+&lt;p&gt;点击菜单栏的这个点，就可以再画布上面点击创建点了，再次点击创建过的点，按一下键盘上的delete键就可以删除点。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2.png&#34;
 	width=&#34;70&#34;
 	height=&#34;74&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2_hu13848357528514398665.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2_hu6170851476575371092.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2_hu13848357528514398665.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2_hu6170851476575371092.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -83,10 +83,10 @@ hr {
 &lt;h1 id=&#34;线操作&#34;&gt;线操作
 &lt;/h1&gt;&lt;h2 id=&#34;1-创建点线段连续折线&#34;&gt;1. 创建点，线段，连续折线
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;选中这个就可以再画布上点击两个点生成一条直线段&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3.png&#34;
+&lt;li&gt;选中这个就可以再画布上点击两个点生成一条直线段&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3.png&#34;
 	width=&#34;633&#34;
 	height=&#34;296&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3_hu16356904075249075635.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3_hu13147075414206546676.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3_hu16356904075249075635.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3_hu13147075414206546676.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -97,10 +97,10 @@ hr {
 		data-flex-basis=&#34;513px&#34;
 	
 &gt;&lt;/li&gt;
-&lt;li&gt;选中这个，则是生成连续的线段。再次点击可以中止本次操作。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4.png&#34;
+&lt;li&gt;选中这个，则是生成连续的线段。再次点击可以中止本次操作。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4.png&#34;
 	width=&#34;395&#34;
 	height=&#34;381&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4_hu8770156427230635816.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4_hu3208847337372725350.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4_hu8770156427230635816.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4_hu3208847337372725350.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -114,10 +114,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;2-创建矩形&#34;&gt;2. 创建矩形
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个创建矩形。四种图标分别对应了四种不同的创建方式，前两种只能创建这种横平竖直的矩形，后两种可以创建斜着的矩形&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5.png&#34;
+&lt;li&gt;这个创建矩形。四种图标分别对应了四种不同的创建方式，前两种只能创建这种横平竖直的矩形，后两种可以创建斜着的矩形&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5.png&#34;
 	width=&#34;836&#34;
 	height=&#34;381&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5_hu2371676289900466536.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5_hu507878407039997551.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5_hu2371676289900466536.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5_hu507878407039997551.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -131,10 +131,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;3-创建平行四边形和正多边形3-8&#34;&gt;3. 创建平行四边形和正多边形(3-8)
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这里两个一个是创建平行四边形，一个是默认创建正六边形，是的，虽然图标是正五边形，但是这个确实是正六边形。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6.png&#34;
+&lt;li&gt;这里两个一个是创建平行四边形，一个是默认创建正六边形，是的，虽然图标是正五边形，但是这个确实是正六边形。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6.png&#34;
 	width=&#34;884&#34;
 	height=&#34;552&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6_hu9243024682579826913.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6_hu14525576127417755305.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6_hu9243024682579826913.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6_hu14525576127417755305.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -145,10 +145,10 @@ hr {
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;&lt;/li&gt;
-&lt;li&gt;默认的边数可以自己调节。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7.png&#34;
+&lt;li&gt;默认的边数可以自己调节。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7.png&#34;
 	width=&#34;380&#34;
 	height=&#34;284&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7_hu7812276674838328467.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7_hu3635661879243164312.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7_hu7812276674838328467.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7_hu3635661879243164312.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -162,10 +162,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;4-创建圆&#34;&gt;4. 创建圆
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这三种创建圆的方式分辨是通过直径确定圆，圆心加半径确定圆，以及在圆上两点中垂线上确定圆心位置来确定圆。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8.png&#34;
+&lt;li&gt;这三种创建圆的方式分辨是通过直径确定圆，圆心加半径确定圆，以及在圆上两点中垂线上确定圆心位置来确定圆。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8.png&#34;
 	width=&#34;661&#34;
 	height=&#34;597&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8_hu11619985399499965098.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8_hu1195293122143707049.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8_hu11619985399499965098.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8_hu1195293122143707049.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -179,10 +179,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;5-创建椭圆&#34;&gt;5. 创建椭圆
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个是创建椭圆，左上是确定圆心，然后确定长短轴。右下是先创建好一个椭圆之后再选择其中的一段弧线。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9.png&#34;
+&lt;li&gt;这个是创建椭圆，左上是确定圆心，然后确定长短轴。右下是先创建好一个椭圆之后再选择其中的一段弧线。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9.png&#34;
 	width=&#34;557&#34;
 	height=&#34;416&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9_hu14874157952445333444.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9_hu11007433081559421271.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9_hu14874157952445333444.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9_hu11007433081559421271.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -196,10 +196,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;6-创建圆弧&#34;&gt;6. 创建圆弧
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这里的第一个是延伸，或者说在某个线的断点之后延伸一段圆弧。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10.png&#34;
+&lt;li&gt;这里的第一个是延伸，或者说在某个线的断点之后延伸一段圆弧。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10.png&#34;
 	width=&#34;661&#34;
 	height=&#34;488&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10_hu11955101210330288420.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10_hu13273440613574993439.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10_hu11955101210330288420.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10_hu13273440613574993439.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -210,10 +210,10 @@ hr {
 		data-flex-basis=&#34;325px&#34;
 	
 &gt;&lt;/li&gt;
-&lt;li&gt;第二个就是创建一段圆弧，操作类似于用中垂线创建圆的那一步。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11.png&#34;
+&lt;li&gt;第二个就是创建一段圆弧，操作类似于用中垂线创建圆的那一步。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11.png&#34;
 	width=&#34;426&#34;
 	height=&#34;402&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11_hu436977621454499426.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11_hu16041075412702422126.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11_hu436977621454499426.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11_hu16041075412702422126.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -225,10 +225,10 @@ hr {
 	
 &gt;&lt;/li&gt;
 &lt;li&gt;第三个也是创建圆弧，操作类似于圆心-半径创建圆的那一步。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12.png&#34;
 	width=&#34;945&#34;
 	height=&#34;575&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12_hu1518845845418405118.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12_hu635781664651489966.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12_hu1518845845418405118.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12_hu635781664651489966.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -243,10 +243,10 @@ hr {
 &lt;h2 id=&#34;7-创建贝塞尔曲线&#34;&gt;7. 创建贝塞尔曲线
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;这个是创建贝塞尔曲线，两种创建方式的区别就是在于第二个在创建的时候会把辅助线给标记出来。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13.png&#34;
 	width=&#34;1038&#34;
 	height=&#34;320&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13_hu6221097874790493264.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13_hu5649370026214538661.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13_hu6221097874790493264.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13_hu5649370026214538661.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -256,10 +256,10 @@ hr {
 		data-flex-grow=&#34;324&#34;
 		data-flex-basis=&#34;778px&#34;
 	
-&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14.png&#34;
+&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14.png&#34;
 	width=&#34;1069&#34;
 	height=&#34;652&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14_hu7891470829247579671.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14_hu12157117688179409081.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14_hu7891470829247579671.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14_hu12157117688179409081.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -275,10 +275,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;8-其他操作&#34;&gt;8. 其他操作
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个是测量两条线之间的距离，并且可以改变他们的距离，但是我试了几次貌似都是左边的固定，右边的在移动。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15.png&#34;
+&lt;li&gt;这个是测量两条线之间的距离，并且可以改变他们的距离，但是我试了几次貌似都是左边的固定，右边的在移动。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15.png&#34;
 	width=&#34;660&#34;
 	height=&#34;463&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15_hu5905245846615139919.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15_hu9793318603775613281.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15_hu5905245846615139919.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15_hu9793318603775613281.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -292,10 +292,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;9-删除线和分割线&#34;&gt;9. 删除线和分割线
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这两个，上面的是删除线，下面的是分割线。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16.png&#34;
+&lt;li&gt;这两个，上面的是删除线，下面的是分割线。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16.png&#34;
 	width=&#34;420&#34;
 	height=&#34;490&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16_hu14900969442783780657.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16_hu6582306202561023390.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16_hu14900969442783780657.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16_hu6582306202561023390.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -309,10 +309,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;10-曲线延伸&#34;&gt;10. 曲线延伸
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个是曲线延伸，但是只能延伸圆，椭圆，直线这种简单类型的。对于贝塞尔曲线是无法选中的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17.png&#34;
+&lt;li&gt;这个是曲线延伸，但是只能延伸圆，椭圆，直线这种简单类型的。对于贝塞尔曲线是无法选中的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17.png&#34;
 	width=&#34;638&#34;
 	height=&#34;705&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17_hu702586856019452199.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17_hu2235369528568097667.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17_hu702586856019452199.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17_hu2235369528568097667.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -326,10 +326,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;11-去尖角顶点&#34;&gt;11. 去尖角顶点
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个是去直角，把尖角变成弧线链接起来，但是貌似不是很平滑。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18.png&#34;
+&lt;li&gt;这个是去直角，把尖角变成弧线链接起来，但是貌似不是很平滑。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18.png&#34;
 	width=&#34;454&#34;
 	height=&#34;478&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18_hu8609606053899203508.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18_hu18165153709210489988.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18_hu8609606053899203508.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18_hu18165153709210489988.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -340,10 +340,10 @@ hr {
 		data-flex-basis=&#34;227px&#34;
 	
 &gt;&lt;/li&gt;
-&lt;li&gt;但是在大面积的图形上看着还是蛮不错的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19.png&#34;
+&lt;li&gt;但是在大面积的图形上看着还是蛮不错的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19.png&#34;
 	width=&#34;693&#34;
 	height=&#34;643&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19_hu14262128079783385627.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19_hu2450319698702508052.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19_hu14262128079783385627.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19_hu2450319698702508052.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -357,10 +357,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;12-镜像图形和复制图形&#34;&gt;12. 镜像图形和复制图形
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;镜像一份图形，要注意选中的图形得完整，不能是一部分。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20.png&#34;
+&lt;li&gt;镜像一份图形，要注意选中的图形得完整，不能是一部分。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20.png&#34;
 	width=&#34;1062&#34;
 	height=&#34;697&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20_hu17919046291640188411.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20_hu16107468684485136058.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20_hu17919046291640188411.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20_hu16107468684485136058.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -372,10 +372,10 @@ hr {
 	
 &gt;&lt;/li&gt;
 &lt;li&gt;创建一个线(可以是复合曲线)的复制，并且将它放大或者缩小。还是不可以选中贝塞尔曲线。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21.png&#34;
 	width=&#34;429&#34;
 	height=&#34;718&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21_hu6432969639541592336.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21_hu14073707125350401200.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21_hu6432969639541592336.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21_hu14073707125350401200.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -386,10 +386,10 @@ hr {
 		data-flex-basis=&#34;143px&#34;
 	
 &gt;
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22.png&#34;
 	width=&#34;831&#34;
 	height=&#34;640&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22_hu5833590960877452541.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22_hu7347192077948399061.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22_hu5833590960877452541.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22_hu7347192077948399061.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;

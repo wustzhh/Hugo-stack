@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>zhh的个人博客</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/</link>
         <description>Recent content on zhh的个人博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>zhh</copyright>
-        <lastBuildDate>Mon, 13 Jan 2025 14:34:24 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack-main/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 13 Jan 2025 14:34:24 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>25.01.13_HyperMesh点线编辑</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/</link>
         <pubDate>Mon, 13 Jan 2025 14:34:24 +0800</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/</guid>
-        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/emilia.jpg" alt="Featured image of post 25.01.13_HyperMesh点线编辑" /&gt;&lt;style&gt;
+        <guid>https://wustzhh.github.io/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/</guid>
+        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/emilia.jpg" alt="Featured image of post 25.01.13_HyperMesh点线编辑" /&gt;&lt;style&gt;
 hr {
     border: none;
     height: 2px; /* 横线的高度 */
@@ -24,10 +24,10 @@ hr {
 &lt;h1 id=&#34;准备&#34;&gt;准备
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;我们将使用HyperMesh软件2022版本进行点线几何编辑。主要操作的就是下面这一排，后面框内是具体的点线操作。前面的是选择一个表面进行编辑或者一个plane作为草图。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image.png&#34;
 	width=&#34;1198&#34;
 	height=&#34;154&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image_hu3647838553354434601.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image_hu11554160434022339773.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image_hu3647838553354434601.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image_hu11554160434022339773.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -41,10 +41,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
 &lt;p&gt;选中表面或者草图成功之后会出现这样一大片的画布。另外两个Project和Intersected也是类似的操作。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1.png&#34;
 	width=&#34;1508&#34;
 	height=&#34;774&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1_hu3917441703004160029.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1_hu17541838480970864897.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1_hu3917441703004160029.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1_hu17541838480970864897.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -61,10 +61,10 @@ hr {
 &lt;li&gt;创建点&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;
-&lt;p&gt;点击菜单栏的这个点，就可以再画布上面点击创建点了，再次点击创建过的点，按一下键盘上的delete键就可以删除点。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2.png&#34;
+&lt;p&gt;点击菜单栏的这个点，就可以再画布上面点击创建点了，再次点击创建过的点，按一下键盘上的delete键就可以删除点。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2.png&#34;
 	width=&#34;70&#34;
 	height=&#34;74&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2_hu13848357528514398665.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2_hu6170851476575371092.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2_hu13848357528514398665.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-2_hu6170851476575371092.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -83,10 +83,10 @@ hr {
 &lt;h1 id=&#34;线操作&#34;&gt;线操作
 &lt;/h1&gt;&lt;h2 id=&#34;1-创建点线段连续折线&#34;&gt;1. 创建点，线段，连续折线
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;选中这个就可以再画布上点击两个点生成一条直线段&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3.png&#34;
+&lt;li&gt;选中这个就可以再画布上点击两个点生成一条直线段&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3.png&#34;
 	width=&#34;633&#34;
 	height=&#34;296&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3_hu16356904075249075635.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3_hu13147075414206546676.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3_hu16356904075249075635.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-3_hu13147075414206546676.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -97,10 +97,10 @@ hr {
 		data-flex-basis=&#34;513px&#34;
 	
 &gt;&lt;/li&gt;
-&lt;li&gt;选中这个，则是生成连续的线段。再次点击可以中止本次操作。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4.png&#34;
+&lt;li&gt;选中这个，则是生成连续的线段。再次点击可以中止本次操作。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4.png&#34;
 	width=&#34;395&#34;
 	height=&#34;381&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4_hu8770156427230635816.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4_hu3208847337372725350.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4_hu8770156427230635816.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-4_hu3208847337372725350.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -114,10 +114,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;2-创建矩形&#34;&gt;2. 创建矩形
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个创建矩形。四种图标分别对应了四种不同的创建方式，前两种只能创建这种横平竖直的矩形，后两种可以创建斜着的矩形&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5.png&#34;
+&lt;li&gt;这个创建矩形。四种图标分别对应了四种不同的创建方式，前两种只能创建这种横平竖直的矩形，后两种可以创建斜着的矩形&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5.png&#34;
 	width=&#34;836&#34;
 	height=&#34;381&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5_hu2371676289900466536.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5_hu507878407039997551.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5_hu2371676289900466536.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-5_hu507878407039997551.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -131,10 +131,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;3-创建平行四边形和正多边形3-8&#34;&gt;3. 创建平行四边形和正多边形(3-8)
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这里两个一个是创建平行四边形，一个是默认创建正六边形，是的，虽然图标是正五边形，但是这个确实是正六边形。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6.png&#34;
+&lt;li&gt;这里两个一个是创建平行四边形，一个是默认创建正六边形，是的，虽然图标是正五边形，但是这个确实是正六边形。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6.png&#34;
 	width=&#34;884&#34;
 	height=&#34;552&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6_hu9243024682579826913.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6_hu14525576127417755305.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6_hu9243024682579826913.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-6_hu14525576127417755305.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -145,10 +145,10 @@ hr {
 		data-flex-basis=&#34;384px&#34;
 	
 &gt;&lt;/li&gt;
-&lt;li&gt;默认的边数可以自己调节。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7.png&#34;
+&lt;li&gt;默认的边数可以自己调节。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7.png&#34;
 	width=&#34;380&#34;
 	height=&#34;284&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7_hu7812276674838328467.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7_hu3635661879243164312.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7_hu7812276674838328467.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-7_hu3635661879243164312.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -162,10 +162,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;4-创建圆&#34;&gt;4. 创建圆
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这三种创建圆的方式分辨是通过直径确定圆，圆心加半径确定圆，以及在圆上两点中垂线上确定圆心位置来确定圆。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8.png&#34;
+&lt;li&gt;这三种创建圆的方式分辨是通过直径确定圆，圆心加半径确定圆，以及在圆上两点中垂线上确定圆心位置来确定圆。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8.png&#34;
 	width=&#34;661&#34;
 	height=&#34;597&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8_hu11619985399499965098.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8_hu1195293122143707049.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8_hu11619985399499965098.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-8_hu1195293122143707049.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -179,10 +179,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;5-创建椭圆&#34;&gt;5. 创建椭圆
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个是创建椭圆，左上是确定圆心，然后确定长短轴。右下是先创建好一个椭圆之后再选择其中的一段弧线。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9.png&#34;
+&lt;li&gt;这个是创建椭圆，左上是确定圆心，然后确定长短轴。右下是先创建好一个椭圆之后再选择其中的一段弧线。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9.png&#34;
 	width=&#34;557&#34;
 	height=&#34;416&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9_hu14874157952445333444.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9_hu11007433081559421271.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9_hu14874157952445333444.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-9_hu11007433081559421271.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -196,10 +196,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;6-创建圆弧&#34;&gt;6. 创建圆弧
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这里的第一个是延伸，或者说在某个线的断点之后延伸一段圆弧。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10.png&#34;
+&lt;li&gt;这里的第一个是延伸，或者说在某个线的断点之后延伸一段圆弧。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10.png&#34;
 	width=&#34;661&#34;
 	height=&#34;488&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10_hu11955101210330288420.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10_hu13273440613574993439.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10_hu11955101210330288420.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-10_hu13273440613574993439.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -210,10 +210,10 @@ hr {
 		data-flex-basis=&#34;325px&#34;
 	
 &gt;&lt;/li&gt;
-&lt;li&gt;第二个就是创建一段圆弧，操作类似于用中垂线创建圆的那一步。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11.png&#34;
+&lt;li&gt;第二个就是创建一段圆弧，操作类似于用中垂线创建圆的那一步。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11.png&#34;
 	width=&#34;426&#34;
 	height=&#34;402&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11_hu436977621454499426.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11_hu16041075412702422126.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11_hu436977621454499426.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-11_hu16041075412702422126.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -225,10 +225,10 @@ hr {
 	
 &gt;&lt;/li&gt;
 &lt;li&gt;第三个也是创建圆弧，操作类似于圆心-半径创建圆的那一步。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12.png&#34;
 	width=&#34;945&#34;
 	height=&#34;575&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12_hu1518845845418405118.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12_hu635781664651489966.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12_hu1518845845418405118.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-12_hu635781664651489966.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -243,10 +243,10 @@ hr {
 &lt;h2 id=&#34;7-创建贝塞尔曲线&#34;&gt;7. 创建贝塞尔曲线
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;这个是创建贝塞尔曲线，两种创建方式的区别就是在于第二个在创建的时候会把辅助线给标记出来。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13.png&#34;
 	width=&#34;1038&#34;
 	height=&#34;320&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13_hu6221097874790493264.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13_hu5649370026214538661.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13_hu6221097874790493264.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-13_hu5649370026214538661.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -256,10 +256,10 @@ hr {
 		data-flex-grow=&#34;324&#34;
 		data-flex-basis=&#34;778px&#34;
 	
-&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14.png&#34;
+&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14.png&#34;
 	width=&#34;1069&#34;
 	height=&#34;652&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14_hu7891470829247579671.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14_hu12157117688179409081.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14_hu7891470829247579671.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-14_hu12157117688179409081.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -275,10 +275,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;8-其他操作&#34;&gt;8. 其他操作
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个是测量两条线之间的距离，并且可以改变他们的距离，但是我试了几次貌似都是左边的固定，右边的在移动。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15.png&#34;
+&lt;li&gt;这个是测量两条线之间的距离，并且可以改变他们的距离，但是我试了几次貌似都是左边的固定，右边的在移动。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15.png&#34;
 	width=&#34;660&#34;
 	height=&#34;463&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15_hu5905245846615139919.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15_hu9793318603775613281.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15_hu5905245846615139919.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-15_hu9793318603775613281.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -292,10 +292,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;9-删除线和分割线&#34;&gt;9. 删除线和分割线
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这两个，上面的是删除线，下面的是分割线。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16.png&#34;
+&lt;li&gt;这两个，上面的是删除线，下面的是分割线。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16.png&#34;
 	width=&#34;420&#34;
 	height=&#34;490&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16_hu14900969442783780657.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16_hu6582306202561023390.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16_hu14900969442783780657.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-16_hu6582306202561023390.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -309,10 +309,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;10-曲线延伸&#34;&gt;10. 曲线延伸
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个是曲线延伸，但是只能延伸圆，椭圆，直线这种简单类型的。对于贝塞尔曲线是无法选中的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17.png&#34;
+&lt;li&gt;这个是曲线延伸，但是只能延伸圆，椭圆，直线这种简单类型的。对于贝塞尔曲线是无法选中的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17.png&#34;
 	width=&#34;638&#34;
 	height=&#34;705&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17_hu702586856019452199.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17_hu2235369528568097667.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17_hu702586856019452199.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-17_hu2235369528568097667.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -326,10 +326,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;11-去尖角顶点&#34;&gt;11. 去尖角顶点
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;这个是去直角，把尖角变成弧线链接起来，但是貌似不是很平滑。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18.png&#34;
+&lt;li&gt;这个是去直角，把尖角变成弧线链接起来，但是貌似不是很平滑。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18.png&#34;
 	width=&#34;454&#34;
 	height=&#34;478&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18_hu8609606053899203508.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18_hu18165153709210489988.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18_hu8609606053899203508.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-18_hu18165153709210489988.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -340,10 +340,10 @@ hr {
 		data-flex-basis=&#34;227px&#34;
 	
 &gt;&lt;/li&gt;
-&lt;li&gt;但是在大面积的图形上看着还是蛮不错的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19.png&#34;
+&lt;li&gt;但是在大面积的图形上看着还是蛮不错的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19.png&#34;
 	width=&#34;693&#34;
 	height=&#34;643&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19_hu14262128079783385627.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19_hu2450319698702508052.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19_hu14262128079783385627.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-19_hu2450319698702508052.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -357,10 +357,10 @@ hr {
 &lt;/ul&gt;
 &lt;h2 id=&#34;12-镜像图形和复制图形&#34;&gt;12. 镜像图形和复制图形
 &lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;镜像一份图形，要注意选中的图形得完整，不能是一部分。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20.png&#34;
+&lt;li&gt;镜像一份图形，要注意选中的图形得完整，不能是一部分。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20.png&#34;
 	width=&#34;1062&#34;
 	height=&#34;697&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20_hu17919046291640188411.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20_hu16107468684485136058.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20_hu17919046291640188411.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-20_hu16107468684485136058.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -372,10 +372,10 @@ hr {
 	
 &gt;&lt;/li&gt;
 &lt;li&gt;创建一个线(可以是复合曲线)的复制，并且将它放大或者缩小。还是不可以选中贝塞尔曲线。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21.png&#34;
 	width=&#34;429&#34;
 	height=&#34;718&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21_hu6432969639541592336.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21_hu14073707125350401200.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21_hu6432969639541592336.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-21_hu14073707125350401200.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -386,10 +386,10 @@ hr {
 		data-flex-basis=&#34;143px&#34;
 	
 &gt;
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22.png&#34;
 	width=&#34;831&#34;
 	height=&#34;640&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22_hu5833590960877452541.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22_hu7347192077948399061.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22_hu5833590960877452541.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-22_hu7347192077948399061.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -405,11 +405,11 @@ hr {
         </item>
         <item>
         <title>滑动窗口</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
         <pubDate>Sat, 02 Nov 2024 13:17:43 +0800</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</guid>
-        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia.png" alt="Featured image of post 滑动窗口" /&gt;&lt;style&gt;
+        <guid>https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</guid>
+        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia.png" alt="Featured image of post 滑动窗口" /&gt;&lt;style&gt;
 hr {
     border: none;
     height: 2px; /* 横线的高度 */
@@ -422,10 +422,10 @@ hr {
 &lt;p&gt;滑动窗口一直以来都是我不曾注意到的，直到上班之后和同事聊天的时候才知道有这么个算法。恰巧最近做题的时候经常碰到，就专门整理一下。
 本文的题目全都来自LeetCode，题单则是来自&lt;code&gt;灵茶山艾府&lt;/code&gt;的&lt;a class=&#34;link&#34; href=&#34;https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题集&lt;/a&gt;
-最后一题没做，因为我没看懂题目。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image.png&#34;
+最后一题没做，因为我没看懂题目。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image.png&#34;
 	width=&#34;1540&#34;
 	height=&#34;890&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu9027174478304608692.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu13192007805490825273.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu9027174478304608692.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu13192007805490825273.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -441,10 +441,10 @@ hr {
 &lt;/h2&gt;&lt;h3 id=&#34;795-区间子数组个数httpsleetcodecnproblemsnumber-of-subarrays-with-bounded-maximumdescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;795. 区间子数组个数&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1.png&#34;
 	width=&#34;1253&#34;
 	height=&#34;612&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu18371182871586298689.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu1904274930829895083.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu18371182871586298689.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu1904274930829895083.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -516,10 +516,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;最后贴一下战绩： &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2.png&#34;
+&lt;p&gt;最后贴一下战绩： &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2.png&#34;
 	width=&#34;734&#34;
 	height=&#34;453&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu3664814883387862887.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu17984049364869232883.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu3664814883387862887.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu17984049364869232883.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -534,10 +534,10 @@ hr {
 &lt;h3 id=&#34;1658-将-x-减到-0-的最小操作数httpsleetcodecnproblemsminimum-operations-to-reduce-x-to-zerodescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;1658. 将 x 减到 0 的最小操作数&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3.png&#34;
 	width=&#34;1233&#34;
 	height=&#34;726&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu9626725963423300569.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu966288503656649831.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu9626725963423300569.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu966288503656649831.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -625,10 +625,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4.png&#34;
+&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4.png&#34;
 	width=&#34;709&#34;
 	height=&#34;466&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16525315800040000237.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16973091087030195065.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16525315800040000237.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16973091087030195065.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -643,10 +643,10 @@ hr {
 &lt;h3 id=&#34;1234-替换子串得到平衡字符串httpsleetcodecnproblemsreplace-the-substring-for-balanced-stringdescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;1234. 替换子串得到平衡字符串&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5.png&#34;
 	width=&#34;1244&#34;
 	height=&#34;1028&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu1044631414233638874.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu13292829381746868343.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu1044631414233638874.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu13292829381746868343.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -779,10 +779,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6.png&#34;
+&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6.png&#34;
 	width=&#34;712&#34;
 	height=&#34;453&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu18422552890479966756.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu13605172377078081250.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu18422552890479966756.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu13605172377078081250.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -797,10 +797,10 @@ hr {
 &lt;h3 id=&#34;1574-删除最短的子数组使剩余数组有序httpsleetcodecnproblemsshortest-subarray-to-be-removed-to-make-array-sorteddescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;1574. 删除最短的子数组使剩余数组有序&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7.png&#34;
 	width=&#34;1241&#34;
 	height=&#34;728&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu18290584975092826777.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu12509967124629732457.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu18290584975092826777.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu12509967124629732457.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -890,10 +890,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8.png&#34;
+&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8.png&#34;
 	width=&#34;725&#34;
 	height=&#34;448&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu959560517206656853.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu16763575953918603637.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu959560517206656853.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu16763575953918603637.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -908,10 +908,10 @@ hr {
 &lt;h3 id=&#34;2106-摘水果httpsleetcodecnproblemsmaximum-fruits-harvested-after-at-most-k-stepsdescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;2106. 摘水果&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9.png&#34;
 	width=&#34;1227&#34;
 	height=&#34;1645&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu11600020268322347.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu2971312415293958838.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu11600020268322347.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu2971312415293958838.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1055,10 +1055,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10.png&#34;
+&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10.png&#34;
 	width=&#34;698&#34;
 	height=&#34;552&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu8029156966899125311.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu16741419508586600091.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu8029156966899125311.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu16741419508586600091.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1074,11 +1074,11 @@ hr {
         </item>
         <item>
         <title>如何使用Hugo&#43;github搭建博客</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Thu, 31 Oct 2024 17:56:17 +0800</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
-        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/emilia.png" alt="Featured image of post 如何使用Hugo&#43;github搭建博客" /&gt;&lt;style&gt;
+        <guid>https://wustzhh.github.io/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/emilia.png" alt="Featured image of post 如何使用Hugo&#43;github搭建博客" /&gt;&lt;style&gt;
 .highlight {
     background-color: yellow;
     color: black;
@@ -1100,10 +1100,10 @@ hr {
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;首先去搜索Hugo官网，也就是&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;这个地址&lt;/a&gt;
-点击这个按钮&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image.png&#34;
+点击这个按钮&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image.png&#34;
 	width=&#34;1073&#34;
 	height=&#34;71&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image_hu2126215630046374847.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image_hu4541093429324127711.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image_hu2126215630046374847.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image_hu4541093429324127711.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1114,10 +1114,10 @@ hr {
 		data-flex-basis=&#34;3627px&#34;
 	
 &gt;
-进入github页面后点击这个tags&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-1.png&#34;
+进入github页面后点击这个tags&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-1.png&#34;
 	width=&#34;1862&#34;
 	height=&#34;376&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-1_hu15881111166477791938.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-1_hu1393338964743679857.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-1_hu15881111166477791938.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-1_hu1393338964743679857.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1128,10 +1128,10 @@ hr {
 		data-flex-basis=&#34;1188px&#34;
 	
 &gt;
-选择最新版本&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-2.png&#34;
+选择最新版本&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-2.png&#34;
 	width=&#34;2042&#34;
 	height=&#34;426&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-2_hu4526509902596039530.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-2_hu18129242299244455734.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-2_hu4526509902596039530.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-2_hu18129242299244455734.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1142,10 +1142,10 @@ hr {
 		data-flex-basis=&#34;1150px&#34;
 	
 &gt;
-拉到最下面之后选择下面这个&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-3.png&#34;
+拉到最下面之后选择下面这个&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-3.png&#34;
 	width=&#34;2126&#34;
 	height=&#34;1199&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-3_hu13636927493374448940.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-3_hu16360976442284307526.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-3_hu13636927493374448940.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-3_hu16360976442284307526.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1156,10 +1156,10 @@ hr {
 		data-flex-basis=&#34;425px&#34;
 	
 &gt;
-解压完成之后就可以看到这几个文件了&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-4.png&#34;
+解压完成之后就可以看到这几个文件了&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-4.png&#34;
 	width=&#34;1142&#34;
 	height=&#34;299&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-4_hu908976053973988344.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-4_hu14233359219474166105.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-4_hu908976053973988344.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-4_hu14233359219474166105.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1181,10 +1181,10 @@ hr {
 &lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;进来之后是什么都没有的，所以我们需要一个新的主题来开始写博客，这里我推荐的主题是stack
-首先进入Hugo官网，点击这个theme按钮&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-5.png&#34;
+首先进入Hugo官网，点击这个theme按钮&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-5.png&#34;
 	width=&#34;2320&#34;
 	height=&#34;720&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-5_hu15502579414833895318.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-5_hu7943524006507659901.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-5_hu15502579414833895318.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-5_hu7943524006507659901.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1195,10 +1195,10 @@ hr {
 		data-flex-basis=&#34;773px&#34;
 	
 &gt;
-如图所示的第三个就是&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-6.png&#34;
+如图所示的第三个就是&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-6.png&#34;
 	width=&#34;2516&#34;
 	height=&#34;982&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-6_hu11342975597037447463.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-6_hu2579572887859351632.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-6_hu11342975597037447463.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-6_hu2579572887859351632.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1210,10 +1210,10 @@ hr {
 	
 &gt;
 然后依次点击如下按钮
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-7.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-7.png&#34;
 	width=&#34;2215&#34;
 	height=&#34;777&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-7_hu16260859792471158288.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-7_hu5228692496562050575.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-7_hu16260859792471158288.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-7_hu5228692496562050575.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1223,10 +1223,10 @@ hr {
 		data-flex-grow=&#34;285&#34;
 		data-flex-basis=&#34;684px&#34;
 	
-&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-8.png&#34;
+&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-8.png&#34;
 	width=&#34;1727&#34;
 	height=&#34;884&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-8_hu5357378968905303134.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-8_hu11561703276983414953.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-8_hu5357378968905303134.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-8_hu11561703276983414953.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1236,10 +1236,10 @@ hr {
 		data-flex-grow=&#34;195&#34;
 		data-flex-basis=&#34;468px&#34;
 	
-&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-9.png&#34;
+&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-9.png&#34;
 	width=&#34;1435&#34;
 	height=&#34;409&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-9_hu11584005603210421935.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-9_hu1596358034660511256.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-9_hu11584005603210421935.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-9_hu1596358034660511256.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1249,10 +1249,10 @@ hr {
 		data-flex-grow=&#34;350&#34;
 		data-flex-basis=&#34;842px&#34;
 	
-&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-10.png&#34;
+&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-10.png&#34;
 	width=&#34;1355&#34;
 	height=&#34;743&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-10_hu2753467189899012368.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-10_hu13889412439838695588.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-10_hu2753467189899012368.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-10_hu13889412439838695588.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1263,10 +1263,10 @@ hr {
 		data-flex-basis=&#34;437px&#34;
 	
 &gt;
-把下载来的zip文件解压到&lt;code&gt;zhhHugoBlog\themes&lt;/code&gt;目录下&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-11.png&#34;
+把下载来的zip文件解压到&lt;code&gt;zhhHugoBlog\themes&lt;/code&gt;目录下&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-11.png&#34;
 	width=&#34;799&#34;
 	height=&#34;170&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-11_hu12627528644723924104.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-11_hu8308119889337438950.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-11_hu12627528644723924104.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-11_hu8308119889337438950.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1277,10 +1277,10 @@ hr {
 		data-flex-basis=&#34;1128px&#34;
 	
 &gt;
-并且把这个主题的文件夹改个名字，把后面的版本号给去掉，后面说配置的时候会说原因的&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-12.png&#34;
+并且把这个主题的文件夹改个名字，把后面的版本号给去掉，后面说配置的时候会说原因的&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-12.png&#34;
 	width=&#34;713&#34;
 	height=&#34;188&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-12_hu9339282118518435333.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-12_hu786882116355588832.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-12_hu9339282118518435333.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-12_hu786882116355588832.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1295,10 +1295,10 @@ hr {
 &lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;还没完，我们需要把这两个文件复制下来，放到主目录下
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-13.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-13.png&#34;
 	width=&#34;971&#34;
 	height=&#34;276&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-13_hu15803476490607469615.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-13_hu12464253866667296689.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-13_hu15803476490607469615.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-13_hu12464253866667296689.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1308,10 +1308,10 @@ hr {
 		data-flex-grow=&#34;351&#34;
 		data-flex-basis=&#34;844px&#34;
 	
-&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-14.png&#34;
+&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-14.png&#34;
 	width=&#34;880&#34;
 	height=&#34;475&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-14_hu1583385042865615149.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-14_hu16660826876445817924.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-14_hu1583385042865615149.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-14_hu16660826876445817924.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1323,10 +1323,10 @@ hr {
 	
 &gt;
 然后把主目录下的hugo.toml给删了，这个文件和刚刚复制过来的hugo.yaml是一样的，我们只需要一个
-进入这个目录，并且把这个文件夹给删了&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-15.png&#34;
+进入这个目录，并且把这个文件夹给删了&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-15.png&#34;
 	width=&#34;976&#34;
 	height=&#34;328&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-15_hu13791274319241765365.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-15_hu1963829449295411746.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-15_hu13791274319241765365.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-15_hu1963829449295411746.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1341,10 +1341,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;创建文章并且开始写博客&#34;&gt;创建文章，并且开始写博客
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;打开刚刚的控制台，输入&lt;code&gt;hugo new post/如何使用Hugo+github搭建博客/index.md&lt;/code&gt;创建新文章&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-16.png&#34;
+&lt;p&gt;打开刚刚的控制台，输入&lt;code&gt;hugo new post/如何使用Hugo+github搭建博客/index.md&lt;/code&gt;创建新文章&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-16.png&#34;
 	width=&#34;1073&#34;
 	height=&#34;196&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-16_hu3431292211102950904.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-16_hu14618250525014295803.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-16_hu3431292211102950904.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-16_hu14618250525014295803.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1355,10 +1355,10 @@ hr {
 		data-flex-basis=&#34;1313px&#34;
 	
 &gt;
-回到控制台，输入&lt;code&gt;hugo server -D&lt;/code&gt;启动本地服务器，实时预览&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-17.png&#34;
+回到控制台，输入&lt;code&gt;hugo server -D&lt;/code&gt;启动本地服务器，实时预览&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-17.png&#34;
 	width=&#34;1129&#34;
 	height=&#34;635&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-17_hu11055832405588439445.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-17_hu882418151758909121.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-17_hu11055832405588439445.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-17_hu882418151758909121.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1369,10 +1369,10 @@ hr {
 		data-flex-basis=&#34;426px&#34;
 	
 &gt;
-复制控制台给的网址，在浏览器打开即可看到刚刚的主题和文章&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-18.png&#34;
+复制控制台给的网址，在浏览器打开即可看到刚刚的主题和文章&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-18.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1326&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-18_hu6912729956838283379.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-18_hu11870285860180105002.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-18_hu6912729956838283379.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-18_hu11870285860180105002.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1405,10 +1405,10 @@ hr {
 &lt;/h2&gt;&lt;h3 id=&#34;stack主题配置&#34;&gt;stack主题配置
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;进入主题目录，打开&lt;code&gt;hugo.yaml&lt;/code&gt;文件，这个就是stack主题提供的默认配置文件，我们需要作亿点点修改
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-19.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-19.png&#34;
 	width=&#34;821&#34;
 	height=&#34;271&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-19_hu12946482415380649211.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-19_hu9205966278997036201.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-19_hu12946482415380649211.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-19_hu9205966278997036201.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1424,10 +1424,10 @@ hr {
 &lt;code&gt;languageCode&lt;/code&gt;: 这个参数是网站的默认语言，可以不用改，没什么影响
 &lt;code&gt;theme&lt;/code&gt;: 这个参数就是看你要使用哪一个主题，比如说我们这里使用的是stack主题，那么就要stack主题的文件夹的名字，所以我们刚刚把主题文件夹后面的版本号删掉之后就是这个配置文件的默认值了
 &lt;code&gt;title&lt;/code&gt;: AI说[这个参数是网站的标题，可以改成你喜欢的标题]，但是我没有找到这个参数有什么用，建议删掉
-&lt;code&gt;paginate&lt;/code&gt;: 每一页有多少篇文章，有些版本可能删掉了，但是没有关系，我们可以自己加上来&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20.png&#34;
+&lt;code&gt;paginate&lt;/code&gt;: 每一页有多少篇文章，有些版本可能删掉了，但是没有关系，我们可以自己加上来&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20.png&#34;
 	width=&#34;667&#34;
 	height=&#34;280&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20_hu2594803318659113040.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20_hu10562183031619672615.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20_hu2594803318659113040.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-20_hu10562183031619672615.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1438,10 +1438,10 @@ hr {
 		data-flex-basis=&#34;571px&#34;
 	
 &gt;
-&lt;code&gt;copyright&lt;/code&gt;: 版权信息，可以删掉，也可以加上自己的信息，对应的是这里&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-21.png&#34;
+&lt;code&gt;copyright&lt;/code&gt;: 版权信息，可以删掉，也可以加上自己的信息，对应的是这里&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-21.png&#34;
 	width=&#34;1368&#34;
 	height=&#34;1271&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-21_hu8373363107791676077.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-21_hu9813776063159644372.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-21_hu8373363107791676077.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-21_hu9813776063159644372.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1455,10 +1455,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;语言设置&lt;/code&gt;: &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-22.png&#34;
+&lt;p&gt;&lt;code&gt;语言设置&lt;/code&gt;: &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-22.png&#34;
 	width=&#34;2068&#34;
 	height=&#34;1277&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-22_hu11690365986479669543.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-22_hu1663407104755841860.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-22_hu11690365986479669543.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-22_hu1663407104755841860.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1470,10 +1470,10 @@ hr {
 	
 &gt;
 &lt;code&gt;title&lt;/code&gt;和&lt;code&gt;subtitle&lt;/code&gt;: 这两个参数是网站的标题和副标题，对应的就是这两个地方
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-24.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-24.png&#34;
 	width=&#34;2181&#34;
 	height=&#34;736&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-24_hu2185180623787818475.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-24_hu6391803027215826360.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-24_hu2185180623787818475.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-24_hu6391803027215826360.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1485,10 +1485,10 @@ hr {
 	
 &gt;
 当我们把语言删掉只剩一个中文的时候，网页上对应的语言设置就没了，了却了一些烦恼，记得把&lt;code&gt;hasCJKLanguage&lt;/code&gt;改成true，会让字数统计变得准确一点
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-23.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-23.png&#34;
 	width=&#34;1786&#34;
 	height=&#34;1218&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-23_hu4715075590963282172.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-23_hu10828436119014689208.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-23_hu4715075590963282172.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-23_hu10828436119014689208.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1499,10 +1499,10 @@ hr {
 		data-flex-basis=&#34;351px&#34;
 	
 &gt;
-这几个都是没有什么用的东西，直接看图片的注释就好了&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-25.png&#34;
+这几个都是没有什么用的东西，直接看图片的注释就好了&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-25.png&#34;
 	width=&#34;2178&#34;
 	height=&#34;904&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-25_hu3857855220335705925.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-25_hu9669538864122796596.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-25_hu3857855220335705925.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-25_hu9669538864122796596.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1516,10 +1516,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;blockquote&gt;
-&lt;p&gt;接下来的属性都是在&lt;code&gt;params&lt;/code&gt;下面的&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-26.png&#34;
+&lt;p&gt;接下来的属性都是在&lt;code&gt;params&lt;/code&gt;下面的&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-26.png&#34;
 	width=&#34;2313&#34;
 	height=&#34;1341&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-26_hu6015670081861852198.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-26_hu16712040941512134322.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-26_hu6015670081861852198.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-26_hu16712040941512134322.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1532,10 +1532,10 @@ hr {
 &gt;
 &lt;code&gt;footer&lt;/code&gt;: 网站的页脚，表示博客是从哪一年开始的，如果距今超过一年，就会显示xxxx-xxxx
 &lt;code&gt;dateFormat&lt;/code&gt;中的&lt;code&gt;published&lt;/code&gt;：用来设置文章发布日期的格式，&lt;code&gt;lastUpdated&lt;/code&gt;：应该是文章最后一次更新时间的格式
-&lt;code&gt;sidebar&lt;/code&gt;：设置头像和头像下面的表情的，要提一下的是头像的路径在这里，主题根目录下也有，但是站点根目录的优先级比较高，所以在站点根目录下放置一份就好&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-27.png&#34;
+&lt;code&gt;sidebar&lt;/code&gt;：设置头像和头像下面的表情的，要提一下的是头像的路径在这里，主题根目录下也有，但是站点根目录的优先级比较高，所以在站点根目录下放置一份就好&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-27.png&#34;
 	width=&#34;901&#34;
 	height=&#34;265&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-27_hu14537553637525002488.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-27_hu8443484511873288143.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-27_hu14537553637525002488.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-27_hu8443484511873288143.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1547,10 +1547,10 @@ hr {
 	
 &gt;
 &lt;code&gt;article&lt;/code&gt;：math属性是用来开启数学公式的，需要设置写数学公式的时候开启。toc：表示是否显示目录，true表示显示，false表示不显示。readingTime：显示文章阅读时间，没什么用，开不开都行。license：文章末尾的版权信息，可以删掉，也可以加上自己的信息。
-&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-28.png&#34;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-28.png&#34;
 	width=&#34;2039&#34;
 	height=&#34;1237&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-28_hu4954662590330671606.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-28_hu14432636307726216063.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-28_hu4954662590330671606.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-28_hu14432636307726216063.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1562,10 +1562,10 @@ hr {
 	
 &gt;
 &lt;code&gt;comments&lt;/code&gt;: 评论功能，这个图里面的整个comments下面都是可选的评论框架。使用起来很简单，参考这片博客就行了 &lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/716423597&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;如何给Hugo博客添加评论功能&lt;/a&gt; 特别注意一下&lt;code&gt;utterances&lt;/code&gt;，这个是完全免费的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-29.png&#34;
+    &gt;如何给Hugo博客添加评论功能&lt;/a&gt; 特别注意一下&lt;code&gt;utterances&lt;/code&gt;，这个是完全免费的。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-29.png&#34;
 	width=&#34;1824&#34;
 	height=&#34;1243&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-29_hu11533410099542916126.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-29_hu14811825983188886980.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-29_hu11533410099542916126.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-29_hu14811825983188886980.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1576,10 +1576,10 @@ hr {
 		data-flex-basis=&#34;352px&#34;
 	
 &gt;
-这里的就是widgets界面右边的功能栏，homepage对应主页的几个功能，page的这个是表头&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-30.png&#34;
+这里的就是widgets界面右边的功能栏，homepage对应主页的几个功能，page的这个是表头&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-30.png&#34;
 	width=&#34;2135&#34;
 	height=&#34;1171&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-30_hu6219822761039397615.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-30_hu6211942034958273868.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-30_hu6219822761039397615.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-30_hu6211942034958273868.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1590,10 +1590,10 @@ hr {
 		data-flex-basis=&#34;437px&#34;
 	
 &gt;
-这几个都没什么用，也不知道干嘛的，不管他就好，colorScheme可以设置主题颜色，但是亮暗两种就够用了，先不管。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-31.png&#34;
+这几个都没什么用，也不知道干嘛的，不管他就好，colorScheme可以设置主题颜色，但是亮暗两种就够用了，先不管。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-31.png&#34;
 	width=&#34;1655&#34;
 	height=&#34;1188&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-31_hu13551580299036734732.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-31_hu7469209172309792580.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-31_hu13551580299036734732.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-31_hu7469209172309792580.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1604,10 +1604,10 @@ hr {
 		data-flex-basis=&#34;334px&#34;
 	
 &gt;
-这里就是对应的这个，可以转到自己其他的页面去看看，比如B站&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-32.png&#34;
+这里就是对应的这个，可以转到自己其他的页面去看看，比如B站&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-32.png&#34;
 	width=&#34;1999&#34;
 	height=&#34;977&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-32_hu16159082756575990271.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-32_hu16778247657477638629.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-32_hu16159082756575990271.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-32_hu16778247657477638629.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1621,10 +1621,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;blockquote&gt;
-&lt;p&gt;最后还有首页的几个文件在这里面改。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-33.png&#34;
+&lt;p&gt;最后还有首页的几个文件在这里面改。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-33.png&#34;
 	width=&#34;1894&#34;
 	height=&#34;716&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-33_hu1006126589777117204.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-33_hu2096095439321771156.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-33_hu1006126589777117204.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-33_hu2096095439321771156.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1639,10 +1639,10 @@ hr {
 &lt;h2 id=&#34;部署到github&#34;&gt;部署到github
 &lt;/h2&gt;&lt;h3 id=&#34;常规部署&#34;&gt;常规部署
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;首先需要自己去下载git，然后用指令初始化一下账号信息&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-38.png&#34;
+&lt;p&gt;首先需要自己去下载git，然后用指令初始化一下账号信息&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-38.png&#34;
 	width=&#34;994&#34;
 	height=&#34;725&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-38_hu13084054250783445463.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-38_hu15463435364081987145.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-38_hu13084054250783445463.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-38_hu15463435364081987145.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1653,10 +1653,10 @@ hr {
 		data-flex-basis=&#34;329px&#34;
 	
 &gt;
-新建一个仓库，名字可以随意&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-34.png&#34;
+新建一个仓库，名字可以随意&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-34.png&#34;
 	width=&#34;1390&#34;
 	height=&#34;989&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-34_hu8430081518551687004.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-34_hu18046401990358016254.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-34_hu8430081518551687004.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-34_hu18046401990358016254.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1667,10 +1667,10 @@ hr {
 		data-flex-basis=&#34;337px&#34;
 	
 &gt;
-之后立刻把仓库的网址复制到配置文件的baseURL参数中。&lt;code&gt;特别注意&lt;/code&gt;，如果你的仓库不是&lt;code&gt;github名.github.io&lt;/code&gt;，那么你需要在URL后面加上刚刚的仓库名作为子路径。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-35.png&#34;
+之后立刻把仓库的网址复制到配置文件的baseURL参数中。&lt;code&gt;特别注意&lt;/code&gt;，如果你的仓库不是&lt;code&gt;github名.github.io&lt;/code&gt;，那么你需要在URL后面加上刚刚的仓库名作为子路径。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-35.png&#34;
 	width=&#34;842&#34;
 	height=&#34;93&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-35_hu2379580263675529027.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-35_hu9694950185209376023.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-35_hu2379580263675529027.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-35_hu9694950185209376023.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1684,10 +1684,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;blockquote&gt;
-&lt;p&gt;删除掉这里的public&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-36.png&#34;
+&lt;p&gt;删除掉这里的public&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-36.png&#34;
 	width=&#34;908&#34;
 	height=&#34;597&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-36_hu8509802236156662230.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-36_hu3919257249824818489.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-36_hu8509802236156662230.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-36_hu3919257249824818489.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1699,10 +1699,10 @@ hr {
 	
 &gt;
 然后在控制台输入&lt;code&gt;hugo -D&lt;/code&gt;重新生成静态文件
-之后进入public按照github的提示上传文件，只有第二步需要修改，改成&lt;code&gt;git add .&lt;/code&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-37.png&#34;
+之后进入public按照github的提示上传文件，只有第二步需要修改，改成&lt;code&gt;git add .&lt;/code&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-37.png&#34;
 	width=&#34;1229&#34;
 	height=&#34;202&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-37_hu2787800454242383297.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-37_hu5404033424899224863.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-37_hu2787800454242383297.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-37_hu5404033424899224863.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1717,10 +1717,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;blockquote&gt;
-&lt;p&gt;上传成功之后，来到github仓库的setting这里选择main分支点击save&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-39.png&#34;
+&lt;p&gt;上传成功之后，来到github仓库的setting这里选择main分支点击save&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-39.png&#34;
 	width=&#34;2357&#34;
 	height=&#34;837&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-39_hu8598721455696778240.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-39_hu17897969876339007314.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-39_hu8598721455696778240.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-39_hu17897969876339007314.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1731,10 +1731,10 @@ hr {
 		data-flex-basis=&#34;675px&#34;
 	
 &gt;
-过一会之后刷新，就可以看到你得博客了。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-40.png&#34;
+过一会之后刷新，就可以看到你得博客了。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-40.png&#34;
 	width=&#34;1487&#34;
 	height=&#34;999&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-40_hu6762307279018334741.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-40_hu10618130216191839078.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-40_hu6762307279018334741.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-40_hu10618130216191839078.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1745,10 +1745,10 @@ hr {
 		data-flex-basis=&#34;357px&#34;
 	
 &gt;
-如果看到这种失败，这种是因为网络问题导致的，多试几次。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-50.png&#34;
+如果看到这种失败，这种是因为网络问题导致的，多试几次。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-50.png&#34;
 	width=&#34;1101&#34;
 	height=&#34;201&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-50_hu17367914225764886567.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-50_hu8601099878799510226.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-50_hu17367914225764886567.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-50_hu8601099878799510226.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1763,10 +1763,10 @@ hr {
 &lt;h3 id=&#34;自动部署&#34;&gt;自动部署
 &lt;/h3&gt;&lt;h4 id=&#34;上传的私有仓库&#34;&gt;上传的私有仓库
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;在根目录下面创建一个.gitignore文件，并且写下以下信息，把几个不需要的文件排除掉&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-41.png&#34;
+&lt;p&gt;在根目录下面创建一个.gitignore文件，并且写下以下信息，把几个不需要的文件排除掉&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-41.png&#34;
 	width=&#34;1959&#34;
 	height=&#34;693&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-41_hu8670940161500986695.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-41_hu3101840172827988668.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-41_hu8670940161500986695.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-41_hu3101840172827988668.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1777,10 +1777,10 @@ hr {
 		data-flex-basis=&#34;678px&#34;
 	
 &gt;
-之后按照常规部署的操作来一遍，但是这一次是上传根目录的文件，不再是public了，记得把这一次的仓库设置为私有。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-46.png&#34;
+之后按照常规部署的操作来一遍，但是这一次是上传根目录的文件，不再是public了，记得把这一次的仓库设置为私有。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-46.png&#34;
 	width=&#34;1656&#34;
 	height=&#34;930&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-46_hu9163426761523992211.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-46_hu1879900600593814484.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-46_hu9163426761523992211.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-46_hu1879900600593814484.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1795,10 +1795,10 @@ hr {
 &lt;h4 id=&#34;生成token准备自动部署&#34;&gt;生成token准备自动部署
 &lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;首先到github上生成一个token，这个token可以用来自动部署，而不是用自己的账号密码。
-按以下步骤点击。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-42.png&#34;
+按以下步骤点击。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-42.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1335&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-42_hu1026565039890838677.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-42_hu2848394345747759731.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-42_hu1026565039890838677.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-42_hu2848394345747759731.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1808,10 +1808,10 @@ hr {
 		data-flex-grow=&#34;191&#34;
 		data-flex-basis=&#34;460px&#34;
 	
-&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-43.png&#34;
+&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-43.png&#34;
 	width=&#34;1859&#34;
 	height=&#34;863&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-43_hu12245252938952029006.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-43_hu5138139946859823021.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-43_hu12245252938952029006.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-43_hu5138139946859823021.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1821,10 +1821,10 @@ hr {
 		data-flex-grow=&#34;215&#34;
 		data-flex-basis=&#34;516px&#34;
 	
-&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-44.png&#34;
+&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-44.png&#34;
 	width=&#34;1869&#34;
 	height=&#34;1031&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-44_hu9110643399121812628.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-44_hu10464455235960092143.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-44_hu9110643399121812628.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-44_hu10464455235960092143.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1835,10 +1835,10 @@ hr {
 		data-flex-basis=&#34;435px&#34;
 	
 &gt;
-把repo和workflow勾选上，然后点击generate token，复制生成的token&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-45.png&#34;
+把repo和workflow勾选上，然后点击generate token，复制生成的token&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-45.png&#34;
 	width=&#34;1274&#34;
 	height=&#34;408&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-45_hu7273143897133204145.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-45_hu6762394921935431937.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-45_hu7273143897133204145.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-45_hu6762394921935431937.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1849,10 +1849,10 @@ hr {
 		data-flex-basis=&#34;749px&#34;
 	
 &gt;
-把token作为参数添加到这个仓库的Secrets里面(防止出现明文泄露)，名字随便取，比如&lt;code&gt;Hugo_TOKEN&lt;/code&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-47.png&#34;
+把token作为参数添加到这个仓库的Secrets里面(防止出现明文泄露)，名字随便取，比如&lt;code&gt;Hugo_TOKEN&lt;/code&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-47.png&#34;
 	width=&#34;1924&#34;
 	height=&#34;957&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-47_hu1712233316979652882.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-47_hu3083137530459075521.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-47_hu1712233316979652882.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-47_hu3083137530459075521.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1866,10 +1866,10 @@ hr {
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;私有仓库自动部署&#34;&gt;私有仓库自动部署
 &lt;/h4&gt;&lt;blockquote&gt;
-&lt;p&gt;在根目录下连续新建三层文件，最后的文件名随便取，必须是yaml格式，之后把如下内容复制进去，记得替换一下关键信息&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-48.png&#34;
+&lt;p&gt;在根目录下连续新建三层文件，最后的文件名随便取，必须是yaml格式，之后把如下内容复制进去，记得替换一下关键信息&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-48.png&#34;
 	width=&#34;1096&#34;
 	height=&#34;243&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-48_hu6367669258222664782.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-48_hu9476919435794022819.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-48_hu6367669258222664782.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-48_hu9476919435794022819.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1958,10 +1958,10 @@ hr {
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;blockquote&gt;
-&lt;p&gt;对我来说就是只改这里&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-49.png&#34;
+&lt;p&gt;对我来说就是只改这里&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-49.png&#34;
 	width=&#34;1099&#34;
 	height=&#34;163&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-49_hu4223915465558407807.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-49_hu3263371047967597392.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-49_hu4223915465558407807.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/image-49_hu3263371047967597392.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -1987,35 +1987,35 @@ hr {
         </item>
         <item>
         <title>归档</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/archives/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack-main/archives/</guid>
+        <guid>https://wustzhh.github.io/Hugo-stack/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack-main/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://wustzhh.github.io/Hugo-stack/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/search/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack-main/search/</guid>
+        <guid>https://wustzhh.github.io/Hugo-stack/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>https://wustzhh.github.io/Hugo-stack-main/%E5%8F%8B%E9%93%BE/</link>
+        <link>https://wustzhh.github.io/Hugo-stack/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack-main/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>https://wustzhh.github.io/Hugo-stack/%E5%8F%8B%E9%93%BE/</guid>
         <description>&lt;!-- 
 To use this feature, add `links` section to frontmatter.
 
