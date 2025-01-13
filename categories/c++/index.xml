@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>C&#43;&#43; on zhh的个人博客</title>
-        <link>https://wustzhh.github.io/Hugo-stack/categories/c&#43;&#43;/</link>
+        <link>https://wustzhh.github.io/Hugo-stack-main/categories/c&#43;&#43;/</link>
         <description>Recent content in C&#43;&#43; on zhh的个人博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>zhh</copyright>
-        <lastBuildDate>Sat, 02 Nov 2024 13:17:43 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/categories/c++/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 02 Nov 2024 13:17:43 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack-main/categories/c++/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>滑动窗口</title>
-        <link>https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
+        <link>https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link>
         <pubDate>Sat, 02 Nov 2024 13:17:43 +0800</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</guid>
-        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia.png" alt="Featured image of post 滑动窗口" /&gt;&lt;style&gt;
+        <guid>https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</guid>
+        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/emilia.png" alt="Featured image of post 滑动窗口" /&gt;&lt;style&gt;
 hr {
     border: none;
     height: 2px; /* 横线的高度 */
@@ -26,10 +26,10 @@ hr {
 &lt;p&gt;滑动窗口一直以来都是我不曾注意到的，直到上班之后和同事聊天的时候才知道有这么个算法。恰巧最近做题的时候经常碰到，就专门整理一下。
 本文的题目全都来自LeetCode，题单则是来自&lt;code&gt;灵茶山艾府&lt;/code&gt;的&lt;a class=&#34;link&#34; href=&#34;https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/SOLUTIONS.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;题集&lt;/a&gt;
-最后一题没做，因为我没看懂题目。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image.png&#34;
+最后一题没做，因为我没看懂题目。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image.png&#34;
 	width=&#34;1540&#34;
 	height=&#34;890&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu9027174478304608692.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu13192007805490825273.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu9027174478304608692.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image_hu13192007805490825273.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -45,10 +45,10 @@ hr {
 &lt;/h2&gt;&lt;h3 id=&#34;795-区间子数组个数httpsleetcodecnproblemsnumber-of-subarrays-with-bounded-maximumdescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/number-of-subarrays-with-bounded-maximum/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;795. 区间子数组个数&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1.png&#34;
 	width=&#34;1253&#34;
 	height=&#34;612&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu18371182871586298689.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu1904274930829895083.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu18371182871586298689.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-1_hu1904274930829895083.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -120,10 +120,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;最后贴一下战绩： &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2.png&#34;
+&lt;p&gt;最后贴一下战绩： &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2.png&#34;
 	width=&#34;734&#34;
 	height=&#34;453&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu3664814883387862887.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu17984049364869232883.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu3664814883387862887.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-2_hu17984049364869232883.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -138,10 +138,10 @@ hr {
 &lt;h3 id=&#34;1658-将-x-减到-0-的最小操作数httpsleetcodecnproblemsminimum-operations-to-reduce-x-to-zerodescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;1658. 将 x 减到 0 的最小操作数&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3.png&#34;
 	width=&#34;1233&#34;
 	height=&#34;726&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu9626725963423300569.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu966288503656649831.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu9626725963423300569.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-3_hu966288503656649831.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -229,10 +229,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4.png&#34;
+&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4.png&#34;
 	width=&#34;709&#34;
 	height=&#34;466&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16525315800040000237.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16973091087030195065.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16525315800040000237.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-4_hu16973091087030195065.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -247,10 +247,10 @@ hr {
 &lt;h3 id=&#34;1234-替换子串得到平衡字符串httpsleetcodecnproblemsreplace-the-substring-for-balanced-stringdescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;1234. 替换子串得到平衡字符串&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5.png&#34;
 	width=&#34;1244&#34;
 	height=&#34;1028&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu1044631414233638874.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu13292829381746868343.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu1044631414233638874.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-5_hu13292829381746868343.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -383,10 +383,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6.png&#34;
+&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6.png&#34;
 	width=&#34;712&#34;
 	height=&#34;453&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu18422552890479966756.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu13605172377078081250.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu18422552890479966756.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-6_hu13605172377078081250.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -401,10 +401,10 @@ hr {
 &lt;h3 id=&#34;1574-删除最短的子数组使剩余数组有序httpsleetcodecnproblemsshortest-subarray-to-be-removed-to-make-array-sorteddescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;1574. 删除最短的子数组使剩余数组有序&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7.png&#34;
 	width=&#34;1241&#34;
 	height=&#34;728&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu18290584975092826777.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu12509967124629732457.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu18290584975092826777.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-7_hu12509967124629732457.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -494,10 +494,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8.png&#34;
+&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8.png&#34;
 	width=&#34;725&#34;
 	height=&#34;448&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu959560517206656853.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu16763575953918603637.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu959560517206656853.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-8_hu16763575953918603637.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -512,10 +512,10 @@ hr {
 &lt;h3 id=&#34;2106-摘水果httpsleetcodecnproblemsmaximum-fruits-harvested-after-at-most-k-stepsdescription&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/description/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;2106. 摘水果&lt;/a&gt;
 &lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9.png&#34;
 	width=&#34;1227&#34;
 	height=&#34;1645&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu11600020268322347.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu2971312415293958838.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu11600020268322347.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-9_hu2971312415293958838.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;
@@ -659,10 +659,10 @@ hr {
 &lt;/div&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;blockquote&gt;
-&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10.png&#34;
+&lt;p&gt;贴战绩:  &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10.png&#34;
 	width=&#34;698&#34;
 	height=&#34;552&#34;
-	srcset=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu8029156966899125311.png 480w, https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu16741419508586600091.png 1024w&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu8029156966899125311.png 480w, https://wustzhh.github.io/Hugo-stack-main/Hugo-stack-main/p/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/image-10_hu16741419508586600091.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;alt text&#34;

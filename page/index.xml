@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on zhh的个人博客</title>
-        <link>https://wustzhh.github.io/Hugo-stack/page/</link>
+        <link>https://wustzhh.github.io/Hugo-stack-main/page/</link>
         <description>Recent content in Pages on zhh的个人博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>zhh</copyright>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack-main/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
-        <link>https://wustzhh.github.io/Hugo-stack/archives/</link>
+        <link>https://wustzhh.github.io/Hugo-stack-main/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack/archives/</guid>
+        <guid>https://wustzhh.github.io/Hugo-stack-main/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://wustzhh.github.io/Hugo-stack/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://wustzhh.github.io/Hugo-stack-main/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://wustzhh.github.io/Hugo-stack-main/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://wustzhh.github.io/Hugo-stack/search/</link>
+        <link>https://wustzhh.github.io/Hugo-stack-main/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack/search/</guid>
+        <guid>https://wustzhh.github.io/Hugo-stack-main/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>https://wustzhh.github.io/Hugo-stack/%E5%8F%8B%E9%93%BE/</link>
+        <link>https://wustzhh.github.io/Hugo-stack-main/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://wustzhh.github.io/Hugo-stack/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>https://wustzhh.github.io/Hugo-stack-main/%E5%8F%8B%E9%93%BE/</guid>
         <description>&lt;!-- 
 To use this feature, add `links` section to frontmatter.
 
