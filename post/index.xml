@@ -21,10 +21,9 @@ hr {
     width: 100%; /* 宽度 */
 }
 &lt;/style&gt;
-&lt;p&gt;[toc]&lt;/p&gt;
 &lt;h1 id=&#34;准备&#34;&gt;准备
 &lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;我们将使用HyperMesh软件进行点线几何编辑。主要操作的就是下面这一排，后面框内是具体的电线操作。前面的是选择一个表面进行编辑或者一个plane作为草图。
+&lt;p&gt;我们将使用HyperMesh软件2022版本进行点线几何编辑。主要操作的就是下面这一排，后面框内是具体的点线操作。前面的是选择一个表面进行编辑或者一个plane作为草图。
 &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image.png&#34;
 	width=&#34;1198&#34;
 	height=&#34;154&#34;
@@ -41,7 +40,7 @@ hr {
 &gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;选中表面或者草图成功之后会出现这样一大片的画布。
+&lt;p&gt;选中表面或者草图成功之后会出现这样一大片的画布。另外两个Project和Intersected也是类似的操作。
 &lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/Hugo-stack/p/25.01.13_hypermesh%E7%82%B9%E7%BA%BF%E7%BC%96%E8%BE%91/image-1.png&#34;
 	width=&#34;1508&#34;
 	height=&#34;774&#34;
@@ -77,9 +76,9 @@ hr {
 	
 &gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;
+&lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;blockquote&gt;
-&lt;p&gt;视频中还有一些其他操作的菜单，但是我这里没有找到在哪。&lt;/p&gt;
+&lt;p&gt;视频中还有一些其他操作的菜单，应该是因为版本的差异少了一些选项，我这里没有找到在哪。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;线操作&#34;&gt;线操作
 &lt;/h1&gt;&lt;h2 id=&#34;1-创建点线段连续折线&#34;&gt;1. 创建点，线段，连续折线
