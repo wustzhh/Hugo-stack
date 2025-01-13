@@ -1982,7 +1982,7 @@ hr {
 &lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;git push&lt;/code&gt;也可以换成&lt;code&gt;git push origin main&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;由于更换了电脑，可能是设置不太一样了，导致命令也会有差异，&lt;code&gt;git push&lt;/code&gt;也可以换成&lt;code&gt;git push origin main&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         </item>
