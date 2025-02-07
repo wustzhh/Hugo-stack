@@ -29,18 +29,19 @@ hr {
 &lt;p&gt;由于deepseek之前受到过攻击，官网地址经常会出现无响应的情况，久久不能得到回复，这种结果显然是无法接受的。本地部署可以更好的进行模型的调试和测试，可以更快的得到结果。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;本地部署可以更好的满足一些特殊的需求，比如：对于一些数据集，没有足够的训练集，可以自己选择是否喂养训练集。&lt;/p&gt;
+&lt;p&gt;本地部署可以更好的满足一些特殊的需求，比如：现在有一个电子版的新华字典，可以把它丢给AI学习，后面有问题就可以找AI了。还是诗词这些也都是，想不起来就去早AI就行了。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;什么是deepseek模型？&lt;/p&gt;&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;deepseek是一个基于深度学习的语言模型，可以生成文本。它可以生成的文本可以用来训练机器翻译、文本摘要、文本生成等任务。&lt;/li&gt;
+&lt;li&gt;它是基于开源的transformer模型，可以生成文本，可以生成的文本质量高，生成速度快。&lt;/li&gt;
+&lt;li&gt;它可以生成的文本可以用来训练机器翻译、文本摘要、文本生成等任务。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
 &lt;h2 id=&#34;本地部署&#34;&gt;本地部署
 &lt;/h2&gt;&lt;h3 id=&#34;安装ollama&#34;&gt;安装OLLAMA
-&lt;/h3&gt;&lt;h3 id=&#34;ollama下载&#34;&gt;OLLAMA下载
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;我们需要从OLLAMA上下载并且管理我们的deepseek模型。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;blockquote&gt;
