@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="将deepseek模型部署到本地，可以自己选择是否喂养训练集。">
+<title>本地部署deepseek模型</title>
+
+<link rel='canonical' href='https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/'>
+
+<link rel="stylesheet" href="/Hugo-stack/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="本地部署deepseek模型">
+<meta property='og:description' content="将deepseek模型部署到本地，可以自己选择是否喂养训练集。">
+<meta property='og:url' content='https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/'>
+<meta property='og:site_name' content='zhh的个人博客'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-02-06T14:47:32&#43;08:00'/><meta property='article:modified_time' content='2025-02-06T14:47:32&#43;08:00'/><meta property='og:image' content='https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/emilia.png' />
+<meta name="twitter:title" content="本地部署deepseek模型">
+<meta name="twitter:description" content="将deepseek模型部署到本地，可以自己选择是否喂养训练集。"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/emilia.png' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/Hugo-stack/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/Hugo-stack/img/avatar_hu_8ad4cd5eaa0075ce.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🐈‍⬛</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/Hugo-stack">zhh的个人博客</a></h1>
+            <h2 class="site-description">随缘更新</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/141358542'
+                        target="_blank"
+                        title="bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/Hugo-stack/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/Hugo-stack/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/Hugo-stack/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/Hugo-stack/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/Hugo-stack/%E5%8F%8B%E9%93%BE/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言介绍">前言&amp;介绍</a></li>
+    <li><a href="#本地部署">本地部署</a>
+      <ol>
+        <li><a href="#安装ollama">安装OLLAMA</a></li>
+        <li><a href="#ollama下载">OLLAMA下载</a></li>
+        <li><a href="#ollama常用指令和配置">OLLAMA常用指令和配置</a></li>
+        <li><a href="#下载deepseek模型">下载deepseek模型</a></li>
+      </ol>
+    </li>
+    <li><a href="#让deepseek可视化定制功能">让deepseek可视化，定制功能</a>
+      <ol>
+        <li><a href="#下载ragflow安装docker">下载RagFlow，安装Docker</a></li>
+        <li><a href="#启动ragflow">启动RagFlow</a></li>
+      </ol>
+    </li>
+    <li><a href="#ragflow的使用">RagFlow的使用</a>
+      <ol>
+        <li><a href="#添加模型">添加模型</a></li>
+        <li><a href="#添加知识库">添加知识库</a></li>
+        <li><a href="#对话">对话</a></li>
+      </ol>
+    </li>
+    <li><a href="#其他">其他</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/">
+                <img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/emilia_hu_f9c83428890114e5.png"
+                        srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/emilia_hu_f9c83428890114e5.png 800w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/emilia_hu_751bbdb710deb386.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 本地部署deepseek模型" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/Hugo-stack/categories/llm%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/" >
+                LLM大语言模型
+            </a>
+        
+            <a href="/Hugo-stack/categories/deepseek/" >
+                Deepseek
+            </a>
+        
+            <a href="/Hugo-stack/categories/%E6%8A%80%E6%9C%AF/" >
+                技术
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/">本地部署deepseek模型</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            将deepseek模型部署到本地，可以自己选择是否喂养训练集。
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-02-06</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <style>
+hr {
+	border: none;
+	height: 2px; /* 横线的高度 */
+	background-color: black; /* 横线颜色 */
+	width: 100%; /* 宽度 */
+}
+</style>
+<h2 id="前言介绍">前言&amp;介绍
+</h2><blockquote>
+<p>为什么要在本地部署deepseek模型？</p></blockquote>
+<ul>
+<li>
+<p>由于deepseek之前受到过攻击，官网地址经常会出现无响应的情况，久久不能得到回复，这种结果显然是无法接受的。本地部署可以更好的进行模型的调试和测试，可以更快的得到结果。</p>
+</li>
+<li>
+<p>本地部署可以更好的满足一些特殊的需求，比如：对于一些数据集，没有足够的训练集，可以自己选择是否喂养训练集。</p>
+</li>
+</ul>
+<blockquote>
+<p>什么是deepseek模型？</p></blockquote>
+<ul>
+<li>deepseek是一个基于深度学习的语言模型，可以生成文本。它可以生成的文本可以用来训练机器翻译、文本摘要、文本生成等任务。</li>
+</ul>
+<hr style="border: none; height: 2px; background-color: black; width: 100%;">
+<h2 id="本地部署">本地部署
+</h2><h3 id="安装ollama">安装OLLAMA
+</h3><h3 id="ollama下载">OLLAMA下载
+</h3><blockquote>
+<p>我们需要从OLLAMA上下载并且管理我们的deepseek模型。</p></blockquote>
+<blockquote>
+<p>OLLAMA可以直接去官网下载，<a class="link" href="https://ollama.com/download"  target="_blank" rel="noopener"
+    >官网地址</a>，也可以去github上下载，<a class="link" href="https://github.com/ollama/ollama"  target="_blank" rel="noopener"
+    >github地址</a>，github就是点击release这里下载。<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image.png"
+	width="1742"
+	height="925"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image_hu_94b2b69c116cbabb.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image_hu_cbbc8ec4dc457473.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="188"
+		data-flex-basis="451px"
+	
+></p></blockquote>
+<h3 id="ollama常用指令和配置">OLLAMA常用指令和配置
+</h3><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ollama <span class="c1"># 输出ollama帮助信息，如果有输出则说明安装成功</span>
+</span></span><span class="line"><span class="cl">ollama list <span class="c1"># 列出所有模型，后续用到的模型名称就从这里复制即可</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>后续还需要对ollama进行配置，增加两个环境变量</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">OLLAMA_HOST	0.0.0.0:11434 <span class="c1"># 记住这个11434端口</span>
+</span></span><span class="line"><span class="cl">OLLAMA_MODELS	/path/to/ollama/models
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>这里的<code>/path/to/ollama/models</code>就是你下载的模型的存放路径，比如：<code>E:\ollama\models</code>。</li>
+</ul>
+<h3 id="下载deepseek模型">下载deepseek模型
+</h3><blockquote>
+<p>直接在OLLAMA上搜索deepseek就可以找到我们要的模型。
+V3和R1，我会直接选择R1，因为我需要他来帮助我进行工作上的需求。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-1.png"
+	width="1587"
+	height="926"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-1_hu_d06b2cc6a474f546.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-1_hu_904ebe35bc9d6d32.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="171"
+		data-flex-basis="411px"
+	
+>
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-2.png"
+	width="714"
+	height="714"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-2_hu_37a9542ebeff2410.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-2_hu_c850967844e121e8.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="100"
+		data-flex-basis="240px"
+	
+></p></blockquote>
+<blockquote>
+<p>复制下来这个指令，然后在CMD中运行。如果没有下载对应的模型，则会帮你自动下载，如果已经下载好了则是直接运行。然后就可以进行正常的对话了。
+回复<code>/bye</code>就可以结束对话
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-3.png"
+	width="1385"
+	height="726"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-3_hu_3810a3349f6ff448.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-3_hu_3d828bd28c0ca47e.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="190"
+		data-flex-basis="457px"
+	
+></p></blockquote>
+<hr style="border: none; height: 2px; background-color: black; width: 100%;">
+<h2 id="让deepseek可视化定制功能">让deepseek可视化，定制功能
+</h2><h3 id="下载ragflow安装docker">下载RagFlow，安装Docker
+</h3><blockquote>
+<p>我们需要用到RagFlow这个LLM开源框架，<a class="link" href="https://github.com/infiniflow/ragflow/blob/main/README_zh.md"  target="_blank" rel="noopener"
+    >github地址</a>。</p></blockquote>
+<ul>
+<li>不是一定要用git指令去下载，我们可以直接下载zip压缩包，解压到自己想要的目录即可。</li>
+</ul>
+<blockquote>
+<p>在使用RagFlow之前，我们还需要安装Docker，<a class="link" href="https://www.docker.com/"  target="_blank" rel="noopener"
+    >官网地址</a>。</p></blockquote>
+<ul>
+<li>下载好Docker之后，我们还需要进行一点简单的配置(<code>Docker 无需登录，跳过即可</code>)。
+在下面新增一段内容：
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;builder&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;gc&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;defaultKeepStorage&#34;</span><span class="p">:</span> <span class="s2">&#34;20GB&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;enabled&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;experimental&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;registry-mirrors&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;https://hub.rat.dev&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>下面的<code>registry-mirrors</code>是新增的镜像源地址，防止访问不到国外源。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-4.png"
+	width="1266"
+	height="803"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-4_hu_eccc80ebb5a588c9.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-4_hu_84b9a80c403a63e.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="157"
+		data-flex-basis="378px"
+	
+></li>
+</ul>
+<h3 id="启动ragflow">启动RagFlow
+</h3><blockquote>
+<p>把RagFlow解压到自己想要的目录，然后进入到RagFlow目录</p></blockquote>
+<blockquote>
+<p>启动之前先修改一下设置，完整版的功能更加强大一些。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-6.png"
+	width="867"
+	height="344"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-6_hu_efa190f2877c10d9.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-6_hu_3580ae9085d95f69.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="252"
+		data-flex-basis="604px"
+	
+>
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-7.png"
+	width="1095"
+	height="665"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-7_hu_69915478564bb42c.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-7_hu_b2cace848c077d9b.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="164"
+		data-flex-basis="395px"
+	
+></p></blockquote>
+<blockquote>
+<p>之后就可以在RagFlow目录下打开CMD，输入以下指令启动RagFlow。</p></blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">docker compose -f docker/docker-compose.yml up -d
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>首次启动应该会有一个拉取过程，需要几分钟时间。</p></blockquote>
+<blockquote>
+<p>然后我们就可以在浏览器中打开<code>http://localhost:80/</code>，就可以看到RagFlow的界面了。</p></blockquote>
+<blockquote>
+<p>手动下载zip可以免去git下载的过程，，手动进入RagFlow目录打开CMD运行指令即可。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-5.png"
+	width="1305"
+	height="807"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-5_hu_539ba4556bd62f05.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-5_hu_22be9a1546563a67.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="161"
+		data-flex-basis="388px"
+	
+></p></blockquote>
+<hr style="border: none; height: 2px; background-color: black; width: 100%;">
+<h2 id="ragflow的使用">RagFlow的使用
+</h2><blockquote>
+<p>首次进去需要注册账号，账号都是存在本地的，无需担心泄密问题，首个注册账号的人将会自动成为管理员。</p></blockquote>
+<h3 id="添加模型">添加模型
+</h3><blockquote>
+<p>点击自己的头像，然后点击左侧模型提供商。找到OLLAMA并且点击下面的添加模型，由于我已经添加过了，OLLAMA会在上面，如果没有添加过的话，OLLAMA会在下面<code>(请把下面的ZHIPU-AI当做OLLAMA即可)</code>。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-8.png"
+	width="1740"
+	height="555"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-8_hu_7f3fb3c6aa07aa14.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-8_hu_4299c8fda0768ca1.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="313"
+		data-flex-basis="752px"
+	
+></p></blockquote>
+<blockquote>
+<p>这里填的时候要注意一下，模型名称必须和OLLAMA LIST中显示的一致。
+下面的这个基础URL，把localhost换成自己的IPV4地址即可，不换应该也可以添加成功，后面的11434端口是我们之前配置的环境变量，如果出现无法添加的情况，请检查一下这个环境变量是否正确。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-9.png"
+	width="541"
+	height="633"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-9_hu_da158bd8aad1ce1c.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-9_hu_37564d88f895b172.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="85"
+		data-flex-basis="205px"
+	
+></p></blockquote>
+<blockquote>
+<p>模型添加完毕之后也要改一下系统模型设置(右上角那个蓝色按钮)
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-10.png"
+	width="527"
+	height="648"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-10_hu_c9d3a8ee1c70cfe0.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-10_hu_ff0d3da3b4df687.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="81"
+		data-flex-basis="195px"
+	
+></p></blockquote>
+<h3 id="添加知识库">添加知识库
+</h3><blockquote>
+<p>构建知识库
+添加知识库的时候，要注意一下语言和权限，还有注意解析方法，可以根据文件的类型选择不同的解析方法。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-11.png"
+	width="1263"
+	height="651"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-11_hu_4dee406c67940768.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-11_hu_18e0d2e8c1fb8e81.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="194"
+		data-flex-basis="465px"
+	
+></p></blockquote>
+<blockquote>
+<p>之后是添加文件内容，可以添加多个文件，也可以添加文件夹，RagFlow会自动递归查找。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-12.png"
+	width="1125"
+	height="920"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-12_hu_f747219f7b0d60f6.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-12_hu_3dc393d97fb22ff7.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="122"
+		data-flex-basis="293px"
+	
+></p></blockquote>
+<blockquote>
+<p>如果是未解析状态，还需要自己去解析
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-13.png"
+	width="1510"
+	height="279"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-13_hu_694a487fe8bedaf6.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-13_hu_ab6c8a226f9ff550.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="541"
+		data-flex-basis="1298px"
+	
+></p></blockquote>
+<h3 id="对话">对话
+</h3><blockquote>
+<p>对话必须用到知识库，所以可以等到知识库解析完毕之后再去对话。这几个设置我也不是完全了解，就不多介绍了。
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-14.png"
+	width="1590"
+	height="945"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-14_hu_e27d264643913d6c.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-14_hu_a58c250a3c2de84d.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="168"
+		data-flex-basis="403px"
+	
+>
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-15.png"
+	width="663"
+	height="961"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-15_hu_83a2969e7dd35c97.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-15_hu_718c14bc8965224b.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="68"
+		data-flex-basis="165px"
+	
+>
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-16.png"
+	width="662"
+	height="647"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-16_hu_4c95e0538e42d04c.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-16_hu_8cb3a8041b2fc8d9.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="102"
+		data-flex-basis="245px"
+	
+></p></blockquote>
+<blockquote>
+<p>对话效果
+<img src="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-17.png"
+	width="1736"
+	height="513"
+	srcset="/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-17_hu_367ea0b666d7aa8f.png 480w, /Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-17_hu_5a1a8fca27ad3825.png 1024w"
+	loading="lazy"
+	
+		alt="alt text"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="338"
+		data-flex-basis="812px"
+	
+></p></blockquote>
+<h2 id="其他">其他
+</h2><blockquote>
+<p>安装完OLLAMA，把模型下载到本地之后就可以进行对话了，如果这个文档有什么不清楚的地方，就可以找AI问，AI可以进行辅助解答。</p></blockquote>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
+        
+        
+            <div class="article-image">
+                <img src="/Hugo-stack/p/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/emilia.b90aa1fcdcb67b404d6ed0b988bc7c31_hu_f48524e9421480bf.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post 如何使用Hugo&#43;github搭建博客"
+                        
+                        data-hash="md5-uQqh/Ny2e0BNbtC5iLx8MQ==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">如何使用Hugo&#43;github搭建博客</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="https://utteranc.es/client.js" 
+        repo="wustzhh/Hugo-stack"
+        issue-term="pathname"
+        
+        label="评论"
+        
+        crossorigin="anonymous"
+        async
+        >
+</script>
+
+<style>
+    .utterances {
+        max-width: unset;
+    }
+</style>
+
+<script>
+    let utterancesLoaded = false;
+
+    function setUtterancesTheme(theme) {
+        let utterances = document.querySelector('.utterances iframe');
+        if (utterances) {
+            utterances.contentWindow.postMessage(
+                {
+                    type: 'set-theme',
+                    theme: `github-${theme}`
+                },
+                'https://utteranc.es'
+            );
+        }
+    }
+
+    addEventListener('message', event => {
+        if (event.origin !== 'https://utteranc.es') return;
+
+        
+        utterancesLoaded = true;
+        setUtterancesTheme(document.documentElement.dataset.scheme)
+    });
+
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (!utterancesLoaded) return;
+        setUtterancesTheme(e.detail)
+    })
+</script>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2024 - 
+        
+        2025 zhh
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/Hugo-stack/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

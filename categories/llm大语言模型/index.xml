@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>LLM大语言模型 on zhh的个人博客</title>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/llm%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</link>
+        <description>Recent content in LLM大语言模型 on zhh的个人博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>zhh</copyright>
+        <lastBuildDate>Thu, 06 Feb 2025 14:47:32 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/categories/llm%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>本地部署deepseek模型</title>
+        <link>https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/</link>
+        <pubDate>Thu, 06 Feb 2025 14:47:32 +0800</pubDate>
+        
+        <guid>https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/</guid>
+        <description>&lt;img src="https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/emilia.png" alt="Featured image of post 本地部署deepseek模型" /&gt;&lt;style&gt;
+hr {
+	border: none;
+	height: 2px; /* 横线的高度 */
+	background-color: black; /* 横线颜色 */
+	width: 100%; /* 宽度 */
+}
+&lt;/style&gt;
+&lt;h2 id=&#34;前言介绍&#34;&gt;前言&amp;amp;介绍
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;为什么要在本地部署deepseek模型？&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;由于deepseek之前受到过攻击，官网地址经常会出现无响应的情况，久久不能得到回复，这种结果显然是无法接受的。本地部署可以更好的进行模型的调试和测试，可以更快的得到结果。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本地部署可以更好的满足一些特殊的需求，比如：对于一些数据集，没有足够的训练集，可以自己选择是否喂养训练集。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;什么是deepseek模型？&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;deepseek是一个基于深度学习的语言模型，可以生成文本。它可以生成的文本可以用来训练机器翻译、文本摘要、文本生成等任务。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
+&lt;h2 id=&#34;本地部署&#34;&gt;本地部署
+&lt;/h2&gt;&lt;h3 id=&#34;安装ollama&#34;&gt;安装OLLAMA
+&lt;/h3&gt;&lt;h3 id=&#34;ollama下载&#34;&gt;OLLAMA下载
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;我们需要从OLLAMA上下载并且管理我们的deepseek模型。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;OLLAMA可以直接去官网下载，&lt;a class=&#34;link&#34; href=&#34;https://ollama.com/download&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网地址&lt;/a&gt;，也可以去github上下载，&lt;a class=&#34;link&#34; href=&#34;https://github.com/ollama/ollama&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github地址&lt;/a&gt;，github就是点击release这里下载。&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image.png&#34;
+	width=&#34;1742&#34;
+	height=&#34;925&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image_hu_94b2b69c116cbabb.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image_hu_cbbc8ec4dc457473.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;451px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;ollama常用指令和配置&#34;&gt;OLLAMA常用指令和配置
+&lt;/h3&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ollama &lt;span class=&#34;c1&#34;&gt;# 输出ollama帮助信息，如果有输出则说明安装成功&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ollama list &lt;span class=&#34;c1&#34;&gt;# 列出所有模型，后续用到的模型名称就从这里复制即可&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;后续还需要对ollama进行配置，增加两个环境变量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;OLLAMA_HOST	0.0.0.0:11434 &lt;span class=&#34;c1&#34;&gt;# 记住这个11434端口&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;OLLAMA_MODELS	/path/to/ollama/models
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;这里的&lt;code&gt;/path/to/ollama/models&lt;/code&gt;就是你下载的模型的存放路径，比如：&lt;code&gt;E:\ollama\models&lt;/code&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;下载deepseek模型&#34;&gt;下载deepseek模型
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;直接在OLLAMA上搜索deepseek就可以找到我们要的模型。
+V3和R1，我会直接选择R1，因为我需要他来帮助我进行工作上的需求。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-1.png&#34;
+	width=&#34;1587&#34;
+	height=&#34;926&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-1_hu_d06b2cc6a474f546.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-1_hu_904ebe35bc9d6d32.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;171&#34;
+		data-flex-basis=&#34;411px&#34;
+	
+&gt;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-2.png&#34;
+	width=&#34;714&#34;
+	height=&#34;714&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-2_hu_37a9542ebeff2410.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-2_hu_c850967844e121e8.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;100&#34;
+		data-flex-basis=&#34;240px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;复制下来这个指令，然后在CMD中运行。如果没有下载对应的模型，则会帮你自动下载，如果已经下载好了则是直接运行。然后就可以进行正常的对话了。
+回复&lt;code&gt;/bye&lt;/code&gt;就可以结束对话
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-3.png&#34;
+	width=&#34;1385&#34;
+	height=&#34;726&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-3_hu_3810a3349f6ff448.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-3_hu_3d828bd28c0ca47e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;190&#34;
+		data-flex-basis=&#34;457px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
+&lt;h2 id=&#34;让deepseek可视化定制功能&#34;&gt;让deepseek可视化，定制功能
+&lt;/h2&gt;&lt;h3 id=&#34;下载ragflow安装docker&#34;&gt;下载RagFlow，安装Docker
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;我们需要用到RagFlow这个LLM开源框架，&lt;a class=&#34;link&#34; href=&#34;https://github.com/infiniflow/ragflow/blob/main/README_zh.md&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github地址&lt;/a&gt;。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;不是一定要用git指令去下载，我们可以直接下载zip压缩包，解压到自己想要的目录即可。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;在使用RagFlow之前，我们还需要安装Docker，&lt;a class=&#34;link&#34; href=&#34;https://www.docker.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官网地址&lt;/a&gt;。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;下载好Docker之后，我们还需要进行一点简单的配置(&lt;code&gt;Docker 无需登录，跳过即可&lt;/code&gt;)。
+在下面新增一段内容：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;builder&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nt&#34;&gt;&amp;#34;gc&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;defaultKeepStorage&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;20GB&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &lt;span class=&#34;nt&#34;&gt;&amp;#34;enabled&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;experimental&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;registry-mirrors&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;s2&#34;&gt;&amp;#34;https://hub.rat.dev&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;下面的&lt;code&gt;registry-mirrors&lt;/code&gt;是新增的镜像源地址，防止访问不到国外源。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-4.png&#34;
+	width=&#34;1266&#34;
+	height=&#34;803&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-4_hu_eccc80ebb5a588c9.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-4_hu_84b9a80c403a63e.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;157&#34;
+		data-flex-basis=&#34;378px&#34;
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;启动ragflow&#34;&gt;启动RagFlow
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;把RagFlow解压到自己想要的目录，然后进入到RagFlow目录&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;启动之前先修改一下设置，完整版的功能更加强大一些。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-6.png&#34;
+	width=&#34;867&#34;
+	height=&#34;344&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-6_hu_efa190f2877c10d9.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-6_hu_3580ae9085d95f69.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;252&#34;
+		data-flex-basis=&#34;604px&#34;
+	
+&gt;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-7.png&#34;
+	width=&#34;1095&#34;
+	height=&#34;665&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-7_hu_69915478564bb42c.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-7_hu_b2cace848c077d9b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;164&#34;
+		data-flex-basis=&#34;395px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;之后就可以在RagFlow目录下打开CMD，输入以下指令启动RagFlow。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;docker compose -f docker/docker-compose.yml up -d
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;首次启动应该会有一个拉取过程，需要几分钟时间。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;然后我们就可以在浏览器中打开&lt;code&gt;http://localhost:80/&lt;/code&gt;，就可以看到RagFlow的界面了。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;手动下载zip可以免去git下载的过程，，手动进入RagFlow目录打开CMD运行指令即可。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-5.png&#34;
+	width=&#34;1305&#34;
+	height=&#34;807&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-5_hu_539ba4556bd62f05.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-5_hu_22be9a1546563a67.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;161&#34;
+		data-flex-basis=&#34;388px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr style=&#34;border: none; height: 2px; background-color: black; width: 100%;&#34;&gt;
+&lt;h2 id=&#34;ragflow的使用&#34;&gt;RagFlow的使用
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;首次进去需要注册账号，账号都是存在本地的，无需担心泄密问题，首个注册账号的人将会自动成为管理员。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;添加模型&#34;&gt;添加模型
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;点击自己的头像，然后点击左侧模型提供商。找到OLLAMA并且点击下面的添加模型，由于我已经添加过了，OLLAMA会在上面，如果没有添加过的话，OLLAMA会在下面&lt;code&gt;(请把下面的ZHIPU-AI当做OLLAMA即可)&lt;/code&gt;。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-8.png&#34;
+	width=&#34;1740&#34;
+	height=&#34;555&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-8_hu_7f3fb3c6aa07aa14.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-8_hu_4299c8fda0768ca1.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;313&#34;
+		data-flex-basis=&#34;752px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里填的时候要注意一下，模型名称必须和OLLAMA LIST中显示的一致。
+下面的这个基础URL，把localhost换成自己的IPV4地址即可，不换应该也可以添加成功，后面的11434端口是我们之前配置的环境变量，如果出现无法添加的情况，请检查一下这个环境变量是否正确。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-9.png&#34;
+	width=&#34;541&#34;
+	height=&#34;633&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-9_hu_da158bd8aad1ce1c.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-9_hu_37564d88f895b172.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;85&#34;
+		data-flex-basis=&#34;205px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;模型添加完毕之后也要改一下系统模型设置(右上角那个蓝色按钮)
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-10.png&#34;
+	width=&#34;527&#34;
+	height=&#34;648&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-10_hu_c9d3a8ee1c70cfe0.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-10_hu_ff0d3da3b4df687.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;81&#34;
+		data-flex-basis=&#34;195px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;添加知识库&#34;&gt;添加知识库
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;构建知识库
+添加知识库的时候，要注意一下语言和权限，还有注意解析方法，可以根据文件的类型选择不同的解析方法。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-11.png&#34;
+	width=&#34;1263&#34;
+	height=&#34;651&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-11_hu_4dee406c67940768.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-11_hu_18e0d2e8c1fb8e81.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;194&#34;
+		data-flex-basis=&#34;465px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;之后是添加文件内容，可以添加多个文件，也可以添加文件夹，RagFlow会自动递归查找。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-12.png&#34;
+	width=&#34;1125&#34;
+	height=&#34;920&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-12_hu_f747219f7b0d60f6.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-12_hu_3dc393d97fb22ff7.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;122&#34;
+		data-flex-basis=&#34;293px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果是未解析状态，还需要自己去解析
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-13.png&#34;
+	width=&#34;1510&#34;
+	height=&#34;279&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-13_hu_694a487fe8bedaf6.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-13_hu_ab6c8a226f9ff550.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;541&#34;
+		data-flex-basis=&#34;1298px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;对话&#34;&gt;对话
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;对话必须用到知识库，所以可以等到知识库解析完毕之后再去对话。这几个设置我也不是完全了解，就不多介绍了。
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-14.png&#34;
+	width=&#34;1590&#34;
+	height=&#34;945&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-14_hu_e27d264643913d6c.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-14_hu_a58c250a3c2de84d.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;168&#34;
+		data-flex-basis=&#34;403px&#34;
+	
+&gt;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-15.png&#34;
+	width=&#34;663&#34;
+	height=&#34;961&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-15_hu_83a2969e7dd35c97.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-15_hu_718c14bc8965224b.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;68&#34;
+		data-flex-basis=&#34;165px&#34;
+	
+&gt;
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-16.png&#34;
+	width=&#34;662&#34;
+	height=&#34;647&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-16_hu_4c95e0538e42d04c.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-16_hu_8cb3a8041b2fc8d9.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;102&#34;
+		data-flex-basis=&#34;245px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对话效果
+&lt;img src=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-17.png&#34;
+	width=&#34;1736&#34;
+	height=&#34;513&#34;
+	srcset=&#34;https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-17_hu_367ea0b666d7aa8f.png 480w, https://wustzhh.github.io/Hugo-stack/p/%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2deepseek%E6%A8%A1%E5%9E%8B/image-17_hu_5a1a8fca27ad3825.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;338&#34;
+		data-flex-basis=&#34;812px&#34;
+	
+&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;其他&#34;&gt;其他
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;安装完OLLAMA，把模型下载到本地之后就可以进行对话了，如果这个文档有什么不清楚的地方，就可以找AI问，AI可以进行辅助解答。&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -7,7 +7,31 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>zhh</copyright>
-        <lastBuildDate>Mon, 13 Jan 2025 14:34:24 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 06 Feb 2025 14:47:32 +0800</lastBuildDate><atom:link href="https://wustzhh.github.io/Hugo-stack/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Deepseek</title>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/deepseek/</link>
+        <pubDate>Thu, 06 Feb 2025 14:47:32 +0800</pubDate>
+        
+        <guid>https://wustzhh.github.io/Hugo-stack/categories/deepseek/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>LLM大语言模型</title>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/llm%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</link>
+        <pubDate>Thu, 06 Feb 2025 14:47:32 +0800</pubDate>
+        
+        <guid>https://wustzhh.github.io/Hugo-stack/categories/llm%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>技术</title>
+        <link>https://wustzhh.github.io/Hugo-stack/categories/%E6%8A%80%E6%9C%AF/</link>
+        <pubDate>Thu, 06 Feb 2025 14:47:32 +0800</pubDate>
+        
+        <guid>https://wustzhh.github.io/Hugo-stack/categories/%E6%8A%80%E6%9C%AF/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>HyperMesh</title>
         <link>https://wustzhh.github.io/Hugo-stack/categories/hypermesh/</link>
         <pubDate>Mon, 13 Jan 2025 14:34:24 +0800</pubDate>
@@ -69,14 +93,6 @@
         <pubDate>Thu, 31 Oct 2024 17:56:17 +0800</pubDate>
         
         <guid>https://wustzhh.github.io/Hugo-stack/categories/%E9%83%A8%E7%BD%B2/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>技术</title>
-        <link>https://wustzhh.github.io/Hugo-stack/categories/%E6%8A%80%E6%9C%AF/</link>
-        <pubDate>Thu, 31 Oct 2024 17:56:17 +0800</pubDate>
-        
-        <guid>https://wustzhh.github.io/Hugo-stack/categories/%E6%8A%80%E6%9C%AF/</guid>
         <description></description>
         </item>
         <item>
